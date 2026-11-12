@@ -110,7 +110,7 @@ escape = ->(value) { CGI.escapeHTML(value.to_s) }
       <section id="publications">
         <div class="section-heading"><h2>#{zh ? '学术论文' : 'Publications'}</h2></div>
         <p class="section-intro">#{intro}</p>
-        <p class="section-intro">#{review_text}</p>
+        <!-- <p class="section-intro">#{review_text}</p> -->
         <p class="section-intro">#{zh ? '核查日期：' : 'Checked: '}#{escape.call(data.fetch('checked_on'))}</p>
         <nav class="publication-nav" aria-label="#{zh ? '论文分类' : 'Publication categories'}">
           #{jump_links}
