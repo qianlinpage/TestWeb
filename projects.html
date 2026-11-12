@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Replace the title and description with your own information. -->
-  <title>Projects | Your Name</title>
-  <meta name="description" content="Projects — Your Name, academic homepage.">
-  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+  <title>Research Projects | Qian Lin</title>
+  <meta name="description" content="Qian Lin's research projects and collaborations in high-dimensional statistics, sufficient dimension reduction and the mathematical foundations of artificial intelligence at Tsinghua University.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" hreflang="en" href="projects.html">
   <link rel="alternate" hreflang="zh-CN" href="projects.zh.html">
@@ -15,7 +14,7 @@
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="./">Your Name<span> / academic homepage</span></a>
+      <a class="wordmark" href="index.html">Qian Lin<span> / academic homepage</span></a>
       <nav aria-label="Main navigation">
         <a href="index.html">About</a><a href="projects.html" aria-current="page">Projects</a><a href="teaching.html">Teaching</a><a href="publications.html">Publications</a>
       </nav>
@@ -28,32 +27,68 @@
 
   <div class="layout">
     <aside class="profile" aria-label="Personal information">
-      <!-- Replace this file with your portrait, and update the alt text. -->
-      <img class="portrait" src="assets/avatar.svg" alt="Placeholder portrait — replace with your photo" width="180" height="180">
-      <h1>Your Name <span class="chinese-name" lang="zh-CN">你的姓名</span></h1>
-      <p class="position">Ph.D. Student</p>
-      <p class="affiliation">Department of Computer Science<br>Your University</p>
-      <p class="location">City, Country</p>
-      <!-- Replace the sample email and add links to your actual profiles. -->
-      <a class="email" href="mailto:your.name@example.com">your.name@example.com</a>
-      <div class="profile-links" aria-label="Profile links to configure">
-        <span>Google Scholar</span><span>GitHub</span><span>ORCID</span><span>CV</span>
+      <!-- Portrait and appointment details: Tsinghua faculty profile; sources recorded in README.md. -->
+      <img class="portrait portrait-photo" src="assets/qian-lin.jpg" alt="Qian Lin" width="320" height="400">
+      <h1>Qian Lin <span class="chinese-name" lang="zh-CN">林乾</span></h1>
+      <p class="position">Associate Professor</p>
+      <p class="affiliation">Department of Statistics and Data Science<br>Tsinghua University</p>
+      <p class="location">Room 819, Lyu Dalong Building<br>Beijing, China</p>
+      <a class="email" href="mailto:qianlin@tsinghua.edu.cn">qianlin@tsinghua.edu.cn</a>
+      <div class="profile-links" aria-label="Profile links">
+        <a href="https://scholar.google.com/citations?user=kHPrqdgAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/qianlinpage">GitHub</a>
+        <a href="https://www.stat.tsinghua.edu.cn/en/info/1023/1049.htm">University profile</a>
       </div>
-      <p class="profile-note">Add your profile links in the source.</p>
       <div class="research-topics">
         <h2>Research interests</h2>
-        <ul><li>Machine learning</li><li>Computer vision</li><li>Trustworthy AI</li></ul>
+        <ul><li>Statistical learning theory</li><li>Kernel methods and deep learning</li><li>High-dimensional statistics</li><li>Sufficient dimension reduction</li></ul>
       </div>
     </aside>
 
     <main id="main">
-      <p class="template-note"><strong>Template preview.</strong> All names, publications, and experience below are illustrative placeholders.</p>
       <section id="projects">
         <h2>Research projects</h2>
-        <article class="project"><h3>Open Research Toolkit <span class="sample">Example</span></h3><p>A reproducible toolkit for evaluating machine learning models. Describe your contribution and add a link to the repository here.</p><span class="project-meta">Python / PyTorch / Reproducible research</span></article>
-        <article class="project"><h3>Interactive Dataset Explorer <span class="sample">Example</span></h3><p>A tool for exploring dataset quality and model predictions. Add a brief explanation of who it helps and how it works.</p><span class="project-meta">Visualization / Data analysis</span></article>
+        <p>My research studies the statistical foundations of learning algorithms, with an emphasis on high-dimensional inference, dimension reduction and the generalization of neural networks.</p>
+        <p class="section-intro">Selected projects and collaborations documented in my <a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">Tsinghua faculty profile</a>.</p>
+        <article class="project" id="project-sdr">
+          <h3>Sufficient Dimension Reduction in High-Dimensional Data</h3>
+          <p>National Natural Science Foundation of China · General Program</p>
+          <span class="project-meta">Principal investigator</span>
+        </article>
+        <article class="project" id="project-ai-foundations">
+          <h3>Statistical Theory and Algorithmic Foundations of Artificial Intelligence</h3>
+          <p>Beijing Natural Science Foundation · Key Research Topic</p>
+          <span class="project-meta">Subproject lead · October 2019 – October 2023</span>
+        </article>
       </section>
-      <footer><span>© 2026 Your Name</span><span>Last updated: November 2026</span></footer>
+
+      <section id="collaborations">
+        <h2>Research collaborations</h2>
+        <article class="project" id="project-rare-events">
+          <h3>Models for Mining Rare Events</h3>
+          <p>Institute of Software, Chinese Academy of Sciences</p>
+        </article>
+        <article class="project" id="project-user-behavior">
+          <h3>Modeling and Predicting User Behavior Metrics</h3>
+          <p>ByteDance</p>
+        </article>
+        <article class="project" id="project-overfitting">
+          <h3>A Geometric Explanation of Neural Networks' Resistance to Overfitting</h3>
+          <p>Beijing Academy of Artificial Intelligence</p>
+        </article>
+      </section>
+
+      <section id="related-research">
+        <h2>Related research</h2>
+        <p>Recent papers develop these interests in several directions:</p>
+        <ul class="plain-list">
+          <li><strong>Kernel methods and generalization:</strong> <a href="publications.html#paper-7">optimal rates of kernel ridge regression</a> and <a href="publications.html#paper-14">saturation effects of spectral algorithms</a>.</li>
+          <li><strong>Adaptive feature learning:</strong> <a href="publications.html#paper-8">adaptivity through overparameterization</a> and <a href="publications.html#paper-39">spectral algorithms with learned kernels</a>.</li>
+          <li><strong>Sufficient dimension reduction:</strong> <a href="publications.html#paper-27">sparse sliced inverse regression via lasso</a> and <a href="publications.html#paper-24">the structural dimension of sliced inverse regression</a>.</li>
+        </ul>
+        <p class="section-intro">See the <a href="publications.html">publications page</a> for full references, publication status and preprints.</p>
+      </section>
+      <footer><span>© 2026 Qian Lin</span><span>Last updated: <time datetime="2026-11-13">13 November 2026</time></span></footer>
     </main>
   </div>
 </body>

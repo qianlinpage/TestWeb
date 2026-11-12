@@ -3,10 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Replace the title and description with your own information. -->
-  <title>研究项目 | 你的姓名</title>
-  <meta name="description" content="研究项目——你的姓名，学术主页。">
-  <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
+  <title>研究项目 | 林乾</title>
+  <meta name="description" content="清华大学林乾的科研项目与合作研究，涵盖高维统计、充分性降维及人工智能的数理基础。">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" hreflang="en" href="projects.html">
   <link rel="alternate" hreflang="zh-CN" href="projects.zh.html">
@@ -15,7 +14,7 @@
   <a class="skip-link" href="#main">跳转到正文</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="index.zh.html">你的姓名<span> / 学术主页</span></a>
+      <a class="wordmark" href="index.zh.html">林乾<span> / 学术主页</span></a>
       <nav aria-label="主导航">
         <a href="index.zh.html">关于我</a><a href="projects.zh.html" aria-current="page">研究项目</a><a href="teaching.zh.html">教学与服务</a><a href="publications.zh.html">学术论文</a>
       </nav>
@@ -28,32 +27,68 @@
 
   <div class="layout">
     <aside class="profile" aria-label="个人信息">
-      <!-- Replace this file with your portrait, and update the alt text. -->
-      <img class="portrait" src="assets/avatar.svg" alt="默认头像——请替换为你的照片" width="180" height="180">
-      <h1>你的姓名 <span class="chinese-name" lang="en">Your Name</span></h1>
-      <p class="position">博士研究生</p>
-      <p class="affiliation">计算机科学系<br>你的大学</p>
-      <p class="location">城市，国家</p>
-      <!-- Replace the sample email and add links to your actual profiles. -->
-      <a class="email" href="mailto:your.name@example.com">your.name@example.com</a>
-      <div class="profile-links" aria-label="待配置的个人资料链接">
-        <span>谷歌学术</span><span>GitHub</span><span>ORCID</span><span>简历</span>
+      <!-- 照片与任职信息来自清华大学教师主页，来源记录见 README.md。 -->
+      <img class="portrait portrait-photo" src="assets/qian-lin.jpg" alt="林乾" width="320" height="400">
+      <h1>林乾 <span class="chinese-name" lang="en">Qian Lin</span></h1>
+      <p class="position">副教授</p>
+      <p class="affiliation">统计与数据科学系<br>清华大学</p>
+      <p class="location">吕大龙楼 819 室<br>北京，中国</p>
+      <a class="email" href="mailto:qianlin@tsinghua.edu.cn">qianlin@tsinghua.edu.cn</a>
+      <div class="profile-links" aria-label="个人资料链接">
+        <a href="https://scholar.google.com/citations?user=kHPrqdgAAAAJ&amp;hl=en">谷歌学术</a>
+        <a href="https://github.com/qianlinpage">GitHub</a>
+        <a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">清华教师主页</a>
       </div>
-      <p class="profile-note">请添加你的个人资料链接。</p>
       <div class="research-topics">
         <h2>研究方向</h2>
-        <ul><li>机器学习</li><li>计算机视觉</li><li>可信人工智能</li></ul>
+        <ul><li>统计学习理论</li><li>核方法与深度学习</li><li>高维统计</li><li>充分性降维</li></ul>
       </div>
     </aside>
 
     <main id="main">
-      <p class="template-note"><strong>模板预览。</strong> 下方所有姓名、论文和经历均为示例占位内容。</p>
       <section id="projects">
         <h2>研究项目</h2>
-        <article class="project"><h3>开放研究工具包 <span class="sample">示例</span></h3><p>一个用于评估机器学习模型的可复现工具包。请在此介绍你的贡献，并添加代码仓库链接。</p><span class="project-meta">Python / PyTorch / 可复现研究</span></article>
-        <article class="project"><h3>交互式数据集探索工具 <span class="sample">示例</span></h3><p>一个用于探索数据集质量和模型预测结果的工具。请简要介绍其适用人群及工作原理。</p><span class="project-meta">可视化 / 数据分析</span></article>
+        <p>我的研究关注学习算法的统计基础，重点包括高维统计推断、充分性降维与神经网络的泛化能力。</p>
+        <p class="section-intro">以下项目及合作研究依据<a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">清华大学教师主页</a>整理。</p>
+        <article class="project" id="project-sdr">
+          <h3>高维数据中的充分性降维问题</h3>
+          <p>国家自然科学基金面上项目</p>
+          <span class="project-meta">主持</span>
+        </article>
+        <article class="project" id="project-ai-foundations">
+          <h3>人工智能的统计理论与算法基础</h3>
+          <p>北京市自然科学基金重点研究专题</p>
+          <span class="project-meta">子课题负责人 · 2019 年 10 月 – 2023 年 10 月</span>
+        </article>
       </section>
-      <footer><span>© 2026 你的姓名</span><span>最后更新：2026 年 11 月</span></footer>
+
+      <section id="collaborations">
+        <h2>合作研究</h2>
+        <article class="project" id="project-rare-events">
+          <h3>小概率事件挖掘模型研究</h3>
+          <p>中国科学院软件研究所</p>
+        </article>
+        <article class="project" id="project-user-behavior">
+          <h3>用户行为指标的建模与预测</h3>
+          <p>字节跳动</p>
+        </article>
+        <article class="project" id="project-overfitting">
+          <h3>神经网络的抗过拟合性的几何解释</h3>
+          <p>北京智源人工智能研究院</p>
+        </article>
+      </section>
+
+      <section id="related-research">
+        <h2>相关研究成果</h2>
+        <p>近期论文围绕以下方向展开：</p>
+        <ul class="plain-list">
+          <li><strong>核方法与泛化理论：</strong><a href="publications.zh.html#paper-7">核岭回归的最优收敛速率</a>及<a href="publications.zh.html#paper-14">谱算法的饱和效应</a>。</li>
+          <li><strong>自适应特征学习：</strong><a href="publications.zh.html#paper-8">通过过参数化提升自适应性</a>及<a href="publications.zh.html#paper-39">使用学习核的谱算法</a>。</li>
+          <li><strong>充分性降维：</strong><a href="publications.zh.html#paper-27">基于 Lasso 的稀疏切片逆回归</a>及<a href="publications.zh.html#paper-24">切片逆回归的结构维数</a>。</li>
+        </ul>
+        <p class="section-intro">完整引文、发表状态与预印本见<a href="publications.zh.html">学术论文页面</a>。</p>
+      </section>
+      <footer><span>© 2026 林乾</span><span>最后更新：<time datetime="2026-11-13">2026 年 11 月 13 日</time></span></footer>
     </main>
   </div>
 </body>
