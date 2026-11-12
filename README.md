@@ -1,8 +1,8 @@
-# 学术个人主页模板
+# 林乾的学术主页
 
-典型的 GitHub Pages 学术主页：左侧个人信息，右侧简介、动态、论文、项目、教育和教学。纯 HTML + CSS，无需 Node.js、数据库、构建或第三方字体，双击 `index.html` 即可预览。支持手机、键盘导航和打印。
+林乾（Qian Lin）的双语 GitHub Pages 学术主页：左侧个人信息，右侧简介、动态、论文、项目、教育和教学。纯 HTML + CSS，无需 Node.js、数据库、构建或第三方字体，双击 `index.html` 即可预览。支持手机、键盘导航和打印。中英文同步维护要求见 `AGENTS.md`。
 
-论文页已填入清华大学林乾的论文，并于 2026-11-12 核查出版信息。其他页面仍有占位经历和资料，发布前请替换或删除。
+论文页已填入清华大学林乾的论文，并于 2026-11-12 核查出版信息。首页中英文版本于 2026-11-13 完善了真实简介、照片、研究方向、论文动态、任职和教育经历。项目页与教学页仍有占位经历和资料，需继续替换或删除。
 
 ## 文件
 
@@ -13,6 +13,8 @@ projects.html       Projects 项目页
 teaching.html       Teaching 教学与服务页
 style.css           配色、排版和手机适配
 assets/avatar.svg   默认头像（可换为自己的照片）
+assets/qian-lin.jpg  清华大学教师主页公开照片
+assets/favicon.svg  QL 网站图标
 .nojekyll           告诉 GitHub Pages 直接发布静态文件
 README.md           本说明
 ```
@@ -30,6 +32,8 @@ README.md           本说明
 官方说明：https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
 ## 修改个人资料
+
+首页资料来源（2026-11-13 核对）：[论文页](https://qianlinpage.github.io/TestWeb/publications.html)及本地 `publications-data.json` 用于研究方向与论文动态；[清华教师主页](https://www.stat.tsinghua.edu.cn/info/1023/2413.htm)及其[英文版](https://www.stat.tsinghua.edu.cn/en/info/1023/1049.htm)用于职称、任职日期、邮箱、办公室和照片；[北京国际数学研究中心报告简介](https://bicmr.pku.edu.cn/content/show/18-2959.html)用于 2010 年 MIT 数学博士和 2017 年加入清华的经历。照片保留官网原图，来源为教师主页链接的公开 JPG；仅通过 CSS 调整显示位置。首页动态链接到论文页稳定的 `paper-*` 锚点，保留“预印本”和“在线发表”的状态区分。
 
 使用任意文本编辑器打开对应的 HTML 页面。四个页面使用普通链接跳转，无需 JavaScript；当前页面的导航带有下划线。所有页面共用 `style.css`，个人资料和导航修改需同步到四个 HTML 文件。
 
