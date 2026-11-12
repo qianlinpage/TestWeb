@@ -7,7 +7,10 @@
 ## 文件
 
 ```text
-index.html          页面内容（主要修改这里）
+index.html          About 首页（简介、动态、教育）
+publications.html   Publications 论文页
+projects.html       Projects 项目页
+teaching.html       Teaching 教学与服务页
 style.css           配色、排版和手机适配
 assets/avatar.svg   默认头像（可换为自己的照片）
 .nojekyll           告诉 GitHub Pages 直接发布静态文件
@@ -28,7 +31,9 @@ README.md           本说明
 
 ## 修改个人资料
 
-使用任意文本编辑器打开 `index.html`：
+使用任意文本编辑器打开对应的 HTML 页面。四个页面使用普通链接跳转，无需 JavaScript；当前页面的导航带有下划线。所有页面共用 `style.css`，个人资料和导航修改需同步到四个 HTML 文件。
+
+编辑指南：
 
 - 全局替换 `Your Name`、`你的姓名`、`Your University`、`Advisor Name`、邮箱和城市；同时修改 `<title>`、description 元信息和页脚。
 - 将头像放入 `assets/`（例如 `photo.jpg`），把头像 `<img>` 的 `src` 改为 `assets/photo.jpg`，并将 `alt` 改为姓名。
@@ -40,7 +45,7 @@ README.md           本说明
   ```
 
   CV 需自行提供 PDF 并上传到 `assets/cv.pdf`；不要只增加链接而漏上传文件。
-- 替换研究兴趣、简介、动态、教育和教学内容；不需要的 `<section>...</section>` 可以删除，并同步删除顶部对应导航。
+- 替换研究兴趣、简介、动态、教育和教学内容；不需要的 `<section>...</section>` 可以删除，并同步更新四个页面的顶部导航。
 - 每篇论文是一个 `<article class="publication">...</article>`，可复制添加。修改论文标题、作者、会议、年份和 BibTeX，PDF/Code 占位标签也要改为真实 `<a href="...">PDF</a>` 链接。
 - 发布前删除顶部 `template-note` 提示、个人链接配置提示，以及各处 `sample` 示例标签；确认所有示例经历已经替换为真实内容。
 - 默认英文页面。要改中文，可直接替换可见文字，并将 `<html lang="en">` 改成 `<html lang="zh-CN">`。
