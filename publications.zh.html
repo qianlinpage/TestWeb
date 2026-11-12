@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Replace the title and description with your own information. -->
-  <title>学术论文 | 你的姓名</title>
-  <meta name="description" content="学术论文——你的姓名，学术主页。">
+  <title>学术论文 | 林乾</title>
+  <meta name="description" content="学术论文——林乾，学术主页。">
   <link rel="icon" href="assets/avatar.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" hreflang="en" href="publications.html">
@@ -15,7 +15,7 @@
   <a class="skip-link" href="#main">跳转到正文</a>
   <header class="site-header">
     <div class="header-inner">
-      <a class="wordmark" href="index.zh.html">你的姓名<span> / 学术主页</span></a>
+      <a class="wordmark" href="index.zh.html">林乾<span> / 学术主页</span></a>
       <nav aria-label="主导航">
         <a href="index.zh.html">关于我</a><a href="projects.zh.html">研究项目</a><a href="teaching.zh.html">教学与服务</a><a href="publications.zh.html" aria-current="page">学术论文</a>
       </nav>
@@ -30,12 +30,12 @@
     <aside class="profile" aria-label="个人信息">
       <!-- Replace this file with your portrait, and update the alt text. -->
       <img class="portrait" src="assets/avatar.svg" alt="默认头像——请替换为你的照片" width="180" height="180">
-      <h1>你的姓名 <span class="chinese-name" lang="en">Your Name</span></h1>
-      <p class="position">博士研究生</p>
-      <p class="affiliation">计算机科学系<br>你的大学</p>
-      <p class="location">城市，国家</p>
+      <h1>林乾 <span class="chinese-name" lang="en">Qian Lin</span></h1>
+      <p class="position">副教授</p>
+      <p class="affiliation">统计与数据科学系<br>清华大学</p>
+      <p class="location">北京，中国</p>
       <!-- Replace the sample email and add links to your actual profiles. -->
-      <a class="email" href="mailto:your.name@example.com">your.name@example.com</a>
+      <a class="email" href="mailto:qianlin@tsinghua.edu.cn">qianlin@tsinghua.edu.cn</a>
       <div class="profile-links" aria-label="待配置的个人资料链接">
         <span>谷歌学术</span><span>GitHub</span><span>ORCID</span><span>简历</span>
       </div>
@@ -47,48 +47,367 @@
     </aside>
 
     <main id="main">
-      <p class="template-note"><strong>模板预览。</strong> 下方所有姓名、论文和经历均为示例占位内容。</p>
       <section id="publications">
-        <div class="section-heading"><h2>代表性论文</h2><span>* 同等贡献</span></div>
-        <p class="section-intro">请将这些示例替换为你的论文、相关链接和 BibTeX 引用。</p>
-        <!-- Copy a publication article to add another paper. Use real paper URLs in place of the resource labels. -->
-        <article class="publication">
-          <div class="paper-mark" aria-hidden="true"><span>01</span>机器学习</div>
-          <div class="paper-content">
-            <h3>从有限监督中学习鲁棒表征</h3>
-            <p class="authors"><strong>你的姓名</strong>*, 合作者一*, 导师姓名</p>
-            <p class="venue">会议 / 期刊名称, 2026 <span class="sample">示例论文</span></p>
-            <p class="paper-summary">请简要介绍论文研究的问题、采用的方法及主要发现。</p>
-            <div class="paper-links"><span>PDF · 添加链接</span><span>代码 · 添加链接</span></div>
-            <details><summary>BibTeX</summary><pre><code>@article{yourname2026sample,
-  title   = {Learning Robust Representations from Limited Supervision},
-  author  = {Your Name and Collaborator One and Advisor Name},
-  journal = {Conference / Journal Name — placeholder},
-  year    = {2026},
-  note    = {Illustrative entry; replace before publishing}
-}</code></pre></details>
-          </div>
-        </article>
-        <article class="publication">
-          <div class="paper-mark second" aria-hidden="true"><span>02</span>计算机视觉</div>
-          <div class="paper-content">
-            <h3>理解分布偏移下的视觉模型</h3>
-            <p class="authors">合作者一, <strong>你的姓名</strong>, 导师姓名</p>
-            <p class="venue">会议 / 期刊名称, 2025 <span class="sample">示例论文</span></p>
-            <p class="paper-summary">请介绍本研究如何评估泛化能力，以及它揭示了哪些模型行为。</p>
-            <div class="paper-links"><span>PDF · 添加链接</span><span>项目 · 添加链接</span></div>
-            <details><summary>BibTeX</summary><pre><code>@article{yourname2025sample,
-  title   = {Understanding Visual Models under Distribution Shift},
-  author  = {Collaborator One and Your Name and Advisor Name},
-  journal = {Conference / Journal Name — placeholder},
-  year    = {2025},
-  note    = {Illustrative entry; replace before publishing}
-}</code></pre></details>
-          </div>
-        </article>
-      </section>
-      <footer><span>© 2026 你的姓名</span><span>最后更新：2026 年 11 月</span></footer>
-    </main>
+      <div class="section-heading"><h2>学术论文</h2></div>
+      <p class="section-intro">分为已发表与预印本两类，各类按期刊卷期、会议或预印本首次公开年份倒序排列。</p>
+      <p class="section-intro">核查日期：2026-11-12</p>
+      <nav class="publication-nav" aria-label="论文分类">
+        <a href="#published-papers">已发表 <span>26 篇</span></a>
+          <a href="#preprints">预印本 <span>7 篇 · 待核实 1 条</span></a>
+      </nav>
+      <div class="publication-group" id="published-papers" role="region" aria-labelledby="published-papers-heading">
+        <div class="publication-group-heading"><h3 id="published-papers-heading">已发表</h3><span>26 篇</span></div>
+        <p class="section-intro">包括 24 篇正式发表和 2 篇已在线发表的论文；在线发表情况在条目中注明。</p>
+          <article class="publication" data-publication-id="17" data-year="2027" data-status="online">
+            <div class="paper-mark" aria-hidden="true"><span>01</span>2027</div>
+            <div class="paper-content">
+              <h4>Generalization error curves for analytic spectral algorithms under power-law decay</h4>
+              <p class="authors">Yicheng Li, Weiye Gan, Zuoqiang Shi, <strong>Qian Lin</strong></p>
+              <p class="venue">Applied and Computational Harmonic Analysis 87, article 101920, 2027</p>
+              <p class="paper-summary">已在线发表 · 期刊论文</p>
+              <p class="paper-summary">已在线发表；编入 2027 年 2 月卷期，按出版社卷期年份列示。</p>
+              <div class="paper-links"><a href="https://www.sciencedirect.com/science/article/pii/S1063520326000680">正式出版页面</a> <a href="https://doi.org/10.1016/j.acha.2026.101920">DOI</a> <a href="https://arxiv.org/abs/2401.01599">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="24" data-year="2026" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>02</span>2026</div>
+            <div class="paper-content">
+              <h4>On the structural dimension of sliced inverse regression</h4>
+              <p class="authors">Dongming Huang, Songtao Tian, <strong>Qian Lin</strong></p>
+              <p class="venue">The Annals of Statistics 54(1), pp. 25–47, 2026</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1214/25-AOS2505">正式出版页面</a> <a href="https://arxiv.org/abs/2305.04340">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="13" data-year="2026" data-status="online">
+            <div class="paper-mark" aria-hidden="true"><span>03</span>2026</div>
+            <div class="paper-content">
+              <h4>Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories</h4>
+              <p class="authors">Haobo Zhang, Jianfa Lai, Yicheng Li, <strong>Qian Lin</strong>, Jun S. Liu</p>
+              <p class="venue">Statistical Learning and Data Science, article 100026, 2026</p>
+              <p class="paper-summary">已在线发表 · 期刊论文</p>
+              <p class="paper-summary">2026 年 9 月 1 日在线发表；出版社标为 In Press / Journal Pre-proof，尚未分配卷期。</p>
+              <div class="paper-links"><a href="https://www.sciencedirect.com/science/article/pii/S3051390126000267">正式出版页面</a> <a href="https://doi.org/10.1016/j.slads.2026.100026">DOI</a> <a href="https://arxiv.org/abs/2412.18756">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="3" data-year="2025" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>04</span>2025</div>
+            <div class="paper-content">
+              <h4>Consistency of Physics-Informed Neural Networks for Second-Order Elliptic Equations</h4>
+              <p class="authors">Yuqian Cheng, Zhuo Chen, <strong>Qian Lin</strong></p>
+              <p class="venue">Advances in Neural Information Processing Systems 38 (NeurIPS 2025), pp. 161367–161423</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/ec2833cda146c277cdaa39066764f25c-Abstract-Conference.html">正式出版页面</a> <a href="https://doi.org/10.52202/085713-5389">DOI</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="7" data-year="2025" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>05</span>2025</div>
+            <div class="paper-content">
+              <h4>Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions</h4>
+              <p class="authors">Haobo Zhang, Yicheng Li, Weihao Lu, <strong>Qian Lin</strong></p>
+              <p class="venue">Journal of Machine Learning Research 26(219), pp. 1–63, 2025</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://www.jmlr.org/papers/v26/23-1679.html">正式出版页面</a> <a href="https://arxiv.org/abs/2401.01270">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="12" data-year="2025" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>06</span>2025</div>
+            <div class="paper-content">
+              <h4>The phase diagram of kernel interpolation in large dimensions</h4>
+              <p class="authors">Haobo Zhang, Weihao Lu, <strong>Qian Lin</strong></p>
+              <p class="venue">Biometrika 112(1), article asae057, 2025</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1093/biomet/asae057">正式出版页面</a> <a href="https://arxiv.org/abs/2404.12597">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="8" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>07</span>2024</div>
+            <div class="paper-content">
+              <h4>Improving Adaptivity via Over-Parameterization in Sequence Models</h4>
+              <p class="authors">Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">Advances in Neural Information Processing Systems 37 (NeurIPS 2024), pp. 52438–52480</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/5df5b1f121c915d8bdd00db6aac20827-Abstract-Conference.html">正式出版页面</a> <a href="https://doi.org/10.52202/079017-1662">DOI</a> <a href="https://arxiv.org/abs/2409.00894">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="9" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>08</span>2024</div>
+            <div class="paper-content">
+              <h4>On the Impacts of the Random Initialization in the Neural Tangent Kernel Theory</h4>
+              <p class="authors">Guhan Chen, Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">Advances in Neural Information Processing Systems 37 (NeurIPS 2024), pp. 35909–35944</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/3f0c8c5dc6b16e601b78e164a70d68a2-Abstract-Conference.html">正式出版页面</a> <a href="https://doi.org/10.52202/079017-1132">DOI</a> <a href="https://arxiv.org/abs/2410.05626">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="10" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>09</span>2024</div>
+            <div class="paper-content">
+              <h4>Kernel interpolation generalizes poorly</h4>
+              <p class="authors">Yicheng Li, Haobo Zhang, <strong>Qian Lin</strong></p>
+              <p class="venue">Biometrika 111(2), pp. 715–722, 2024</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1093/biomet/asad048">正式出版页面</a> <a href="https://arxiv.org/abs/2303.15809">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="11" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>10</span>2024</div>
+            <div class="paper-content">
+              <h4>On the Optimality of Misspecified Spectral Algorithms</h4>
+              <p class="authors">Haobo Zhang, Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">Journal of Machine Learning Research 25(188), pp. 1–50, 2024</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://www.jmlr.org/papers/v25/23-0383.html">正式出版页面</a> <a href="https://arxiv.org/abs/2303.14942">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="14" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>11</span>2024</div>
+            <div class="paper-content">
+              <h4>On the Saturation Effects of Spectral Algorithms in Large Dimensions</h4>
+              <p class="authors">Weihao Lu, Haobo Zhang, Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">Advances in Neural Information Processing Systems 37 (NeurIPS 2024), pp. 7011–7059</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/0d3496dd0cec77a999c98d35003203ca-Abstract-Conference.html">正式出版页面</a> <a href="https://doi.org/10.52202/079017-0225">DOI</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="16" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>12</span>2024</div>
+            <div class="paper-content">
+              <h4>The Optimality of Kernel Classifiers in Sobolev Space</h4>
+              <p class="authors">Jianfa Lai, Zhifan Li, Dongming Huang, <strong>Qian Lin</strong></p>
+              <p class="venue">12th International Conference on Learning Representations (ICLR), 2024</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Paper-Conference.pdf">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="18" data-year="2024" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>13</span>2024</div>
+            <div class="paper-content">
+              <h4>On the Eigenvalue Decay Rates of a Class of Neural-Network Related Kernel Functions Defined on General Domains</h4>
+              <p class="authors">Yicheng Li, Zixiong Yu, Guhan Chen, <strong>Qian Lin</strong></p>
+              <p class="venue">Journal of Machine Learning Research 25(82), pp. 1–47, 2024</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://www.jmlr.org/papers/v25/23-0866.html">正式出版页面</a> <a href="https://arxiv.org/abs/2305.02657">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="19" data-year="2023" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>14</span>2023</div>
+            <div class="paper-content">
+              <h4>On the Asymptotic Learning Curves of Kernel Ridge Regression under Power-law Decay</h4>
+              <p class="authors">Yicheng Li, Haobo Zhang, <strong>Qian Lin</strong></p>
+              <p class="venue">Advances in Neural Information Processing Systems 36 (NeurIPS 2023), pp. 49341–49364</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/9adc8ada9183f4b9a007a02773fd8114-Abstract-Conference.html">正式出版页面</a> <a href="https://doi.org/10.52202/075280-2147">DOI</a> <a href="https://arxiv.org/abs/2309.13337">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="21" data-year="2023" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>15</span>2023</div>
+            <div class="paper-content">
+              <h4>On the Optimality of Misspecified Kernel Ridge Regression</h4>
+              <p class="authors">Haobo Zhang, Yicheng Li, Weihao Lu, <strong>Qian Lin</strong></p>
+              <p class="venue">40th International Conference on Machine Learning (ICML), Proceedings of Machine Learning Research 202, pp. 41331–41353, 2023</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://proceedings.mlr.press/v202/zhang23x.html">正式出版页面</a> <a href="https://arxiv.org/abs/2305.07241">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="22" data-year="2023" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>16</span>2023</div>
+            <div class="paper-content">
+              <h4>On the Saturation Effect of Kernel Ridge Regression</h4>
+              <p class="authors">Yicheng Li, Haobo Zhang, <strong>Qian Lin</strong></p>
+              <p class="venue">11th International Conference on Learning Representations (ICLR), 2023</p>
+              <p class="paper-summary">已发表 · 会议论文</p>
+              <div class="paper-links"><a href="https://iclr.cc/virtual/2023/poster/11902">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="25" data-year="2021" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>17</span>2021</div>
+            <div class="paper-content">
+              <h4>On the optimality of sliced inverse regression in high dimensions</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Xinran Li, Dongming Huang, Jun S. Liu</p>
+              <p class="venue">The Annals of Statistics 49(1), pp. 1–20, 2021</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1214/19-AOS1813">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="26" data-year="2021" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>18</span>2021</div>
+            <div class="paper-content">
+              <h4>Testing Model Utility for Single Index Models Under High Dimension</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Zhigen Zhao, Jun S. Liu</p>
+              <p class="venue">In Festschrift in Honor of R. Dennis Cook: Fifty Years of Contribution to Statistical Science, pp. 65–86. Springer, 2021</p>
+              <p class="paper-summary">已发表 · 书籍章节</p>
+              <div class="paper-links"><a href="https://link.springer.com/chapter/10.1007/978-3-030-69009-0_4">正式出版页面</a> <a href="https://doi.org/10.1007/978-3-030-69009-0_4">DOI</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="27" data-year="2019" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>19</span>2019</div>
+            <div class="paper-content">
+              <h4>Sparse Sliced Inverse Regression via Lasso</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Zhigen Zhao, Jun S. Liu</p>
+              <p class="venue">Journal of the American Statistical Association 114(528), pp. 1726–1739, 2019</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1080/01621459.2018.1520115">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="28" data-year="2019" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>20</span>2019</div>
+            <div class="paper-content">
+              <h4>Randomization Inference for Peer Effects</h4>
+              <p class="authors">Xinran Li, Peng Ding, <strong>Qian Lin</strong>, Dawei Yang, Jun S. Liu</p>
+              <p class="venue">Journal of the American Statistical Association 114(528), pp. 1651–1664, 2019</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1080/01621459.2018.1512863">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="29" data-year="2018" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>21</span>2018</div>
+            <div class="paper-content">
+              <h4>On consistency and sparsity for sliced inverse regression in high dimensions</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Zhigen Zhao, Jun S. Liu</p>
+              <p class="venue">The Annals of Statistics 46(2), pp. 580–610, 2018</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1214/17-AOS1561">正式出版页面</a> <a href="https://arxiv.org/abs/1507.03895">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="30" data-year="2018" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>22</span>2018</div>
+            <div class="paper-content">
+              <h4>Inverse Modeling: A Strategy to Cope with Non-linearity</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Yang Li, Jun S. Liu</p>
+              <p class="venue">In Handbook of Big Data Analytics, Springer Handbooks of Computational Statistics, pp. 301–323. Springer, 2018</p>
+              <p class="paper-summary">已发表 · 书籍章节</p>
+              <div class="paper-links"><a href="https://doi.org/10.1007/978-3-319-18284-1_12">正式出版页面</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="31" data-year="2016" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>23</span>2016</div>
+            <div class="paper-content">
+              <h4>Signed support recovery for single index models in high-dimensions</h4>
+              <p class="authors">Matey Neykov, <strong>Qian Lin</strong>, Jun S. Liu</p>
+              <p class="venue">Annals of Mathematical Sciences and Applications 1(2), pp. 379–426, 2016</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.4310/AMSA.2016.v1.n2.a5">正式出版页面</a> <a href="https://arxiv.org/abs/1511.02270">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="32" data-year="2015" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>24</span>2015</div>
+            <div class="paper-content">
+              <h4>Isogeny orbits in a family of abelian varieties</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Ming-Xi Wang</p>
+              <p class="venue">Acta Arithmetica 170(2), pp. 161–173, 2015</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.4064/aa170-2-4">正式出版页面</a> <a href="https://arxiv.org/abs/1403.3976">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="33" data-year="2012" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>25</span>2012</div>
+            <div class="paper-content">
+              <h4>Highest weight modules at the critical level and noncommutative Springer resolution</h4>
+              <p class="authors">Roman Bezrukavnikov, <strong>Qian Lin</strong></p>
+              <p class="venue">In Algebraic Groups and Quantum Groups, Contemporary Mathematics 565, pp. 15–27. American Mathematical Society, 2012</p>
+              <p class="paper-summary">已发表 · 书籍章节</p>
+              <div class="paper-links"><a href="https://doi.org/10.1090/conm/565/11188">正式出版页面</a> <a href="https://arxiv.org/abs/1108.1906">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="34" data-year="2008" data-status="published">
+            <div class="paper-mark" aria-hidden="true"><span>26</span>2008</div>
+            <div class="paper-content">
+              <h4>Quadratic Deformations of Lie–Poisson Structures</h4>
+              <p class="authors"><strong>Qian Lin</strong>, Zhangju Liu, Yunhe Sheng</p>
+              <p class="venue">Letters in Mathematical Physics 83(3), pp. 217–229, 2008</p>
+              <p class="paper-summary">已发表 · 期刊论文</p>
+              <div class="paper-links"><a href="https://doi.org/10.1007/s11005-008-0221-3">正式出版页面</a> <a href="https://arxiv.org/abs/0707.2867">arXiv</a></div>
+            </div>
+          </article>
+      </div>
+      <div class="publication-group" id="preprints" role="region" aria-labelledby="preprints-heading">
+        <div class="publication-group-heading"><h3 id="preprints-heading">预印本</h3><span>7 篇 · 待核实 1 条</span></div>
+        <p class="section-intro">以下预印本尚未检索到正式发表记录。另附一条作者与发表状态待核实的投稿稿件，并保留明确说明。</p>
+          <article class="publication" data-publication-id="1" data-year="2026" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>01</span>2026</div>
+            <div class="paper-content">
+              <h4>Optimal Confidence Band for Kernel Gradient Flow Estimator</h4>
+              <p class="authors">Yuqian Cheng, Zhuo Chen, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2605.05768, 2026</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2605.05768">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="2" data-year="2025" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>02</span>2025</div>
+            <div class="paper-content">
+              <h4>Supporting Evidence for the Adaptive Feature Program across Diverse Models</h4>
+              <p class="authors">Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2511.09425, 2025；修订于 2026</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2511.09425">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="4" data-year="2025" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>03</span>2025</div>
+            <div class="paper-content">
+              <h4>Neural Tangent Kernel of Neural Networks with Loss Informed by Differential Operators</h4>
+              <p class="authors">Weiye Gan, Yicheng Li, <strong>Qian Lin</strong>, Zuoqiang Shi</p>
+              <p class="venue">arXiv:2503.11029, 2025</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2503.11029">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="6" data-year="2025" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>04</span>2025</div>
+            <div class="paper-content">
+              <h4>Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity</h4>
+              <p class="authors">Yicheng Li, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2501.08679, 2025</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2501.08679">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="5" data-year="2025" data-status="unverified">
+            <div class="paper-mark" aria-hidden="true"><span>05</span>2025</div>
+            <div class="paper-content">
+              <h4>Bounds on the Reconstruction Error of Kernel PCA with Interpolation Spaces Norms</h4>
+              <p class="authors">作者信息待核实</p>
+              <p class="venue">ICLR 2025 投稿稿件 · OpenReview</p>
+              <p class="paper-summary">待核实 · 投稿稿件</p>
+              <p class="paper-summary">公开原稿标为匿名审稿稿件；作者信息及正式发表状态待核实，不计入已发表论文。</p>
+              <div class="paper-links"><a href="https://openreview.net/forum?id=5FKIynMPV6">OpenReview</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="15" data-year="2024" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>06</span>2024</div>
+            <div class="paper-content">
+              <h4>On the Pinsker bound of inner product kernel regression in large dimensions</h4>
+              <p class="authors">Weihao Lu, Jialin Ding, Haobo Zhang, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2409.00915, 2024；修订于 2025</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2409.00915">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="20" data-year="2023" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>07</span>2023</div>
+            <div class="paper-content">
+              <h4>Optimal Rate of Kernel Regression in Large Dimensions</h4>
+              <p class="authors">Weihao Lu, Haobo Zhang, Yicheng Li, Manyun Xu, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2309.04268, 2023；修订于 2024</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2309.04268">arXiv</a></div>
+            </div>
+          </article>
+          <article class="publication" data-publication-id="23" data-year="2023" data-status="preprint">
+            <div class="paper-mark" aria-hidden="true"><span>08</span>2023</div>
+            <div class="paper-content">
+              <h4>Generalization Ability of Wide Neural Networks on ℝ</h4>
+              <p class="authors">Jianfa Lai, Manyun Xu, Rui Chen, <strong>Qian Lin</strong></p>
+              <p class="venue">arXiv:2302.05933, 2023</p>
+              <p class="paper-summary">预印本</p>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2302.05933">arXiv</a></div>
+            </div>
+          </article>
+      </div>
+    </section>
+      <footer><span>© 2026 林乾</span></footer></main>
   </div>
 </body>
 </html>
