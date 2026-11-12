@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>研究项目 | 林乾</title>
-  <meta name="description" content="清华大学林乾的科研项目与合作研究，涵盖高维统计、充分性降维及人工智能的数理基础。">
+  <meta name="description" content="林乾的三个研究主题：核方法与谱算法、深度学习理论与自适应特征、高维统计与充分性降维。展示研究问题、进展和代表论文，另列基金与合作记录。">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" hreflang="en" href="projects.html">
@@ -33,7 +33,7 @@
       <p class="position">副教授</p>
       <p class="affiliation">统计与数据科学系<br>清华大学</p>
       <p class="location">吕大龙楼 819 室<br>北京，中国</p>
-      <a class="email" href="mailto:qianlin@tsinghua.edu.cn">qianlin@tsinghua.edu.cn</a>
+      <span class="email" id="contact-email">qianlin [at] tsinghua [dot] edu [dot] cn</span>
       <div class="profile-links" aria-label="个人资料链接">
         <a href="https://scholar.google.com/citations?user=kHPrqdgAAAAJ&amp;hl=en">谷歌学术</a>
         <a href="https://github.com/qianlinpage">GitHub</a>
@@ -46,10 +46,86 @@
     </aside>
 
     <main id="main">
+      <!-- research-projects:start -->
       <section id="projects">
         <h2>研究项目</h2>
-        <p>我的研究关注学习算法的统计基础，重点包括高维统计推断、充分性降维与神经网络的泛化能力。</p>
-        <p class="section-intro">以下项目及合作研究依据<a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">清华大学教师主页</a>整理。</p>
+        <p>围绕三个相互关联的主题，持续研究统计学习的基础问题。每个主题汇集研究问题、已有进展与代表论文。</p>
+        <nav class="research-project-nav" id="related-research" aria-label="研究主题">
+          <a href="#project-kernel-methods">核方法与谱算法</a>
+          <a href="#project-deep-learning">深度学习理论与自适应特征</a>
+          <a href="#project-dimension-reduction">高维统计与充分性降维</a>
+        </nav>
+        <article class="research-project" id="project-kernel-methods">
+          <h3>核方法与谱算法</h3>
+          <p>研究正则化、维数与数据谱结构如何影响统计学习，将核岭回归、核插值与谱算法的学习曲线、收敛速率和饱和效应联系起来。</p>
+          <h4>研究问题</h4>
+          <ul class="plain-list">
+            <li>源条件与模型误设如何影响最优学习速率？</li>
+            <li>高维情形下，插值、饱和效应与良性过拟合之间有什么关系？</li>
+            <li>何时可以用序列模型刻画核回归的风险？</li>
+          </ul>
+          <h4>研究进展</h4>
+          <ul class="project-highlights">
+            <li><p>研究 RKHS 回归与序列模型之间的风险等价关系。</p><a href="publications.zh.html#paper-40">Risk Equivalence between RKHS Regression and Sequence Models for Lipschitz Spectral Algorithms</a><span class="project-paper-meta">2026 · 预印本</span></li>
+            <li><p>研究高维谱算法的学习曲线与良性过拟合。</p><a href="publications.zh.html#paper-37">Learning Curves and Benign Overfitting of Spectral Algorithms in Large Dimensions</a><span class="project-paper-meta">2026 · 预印本</span></li>
+          </ul>
+          <h4>代表论文</h4>
+          <ul class="project-papers">
+            <li><a href="publications.zh.html#paper-7">Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions</a><span class="project-paper-meta">2025 · 已发表</span></li>
+            <li><a href="publications.zh.html#paper-14">On the Saturation Effects of Spectral Algorithms in Large Dimensions</a><span class="project-paper-meta">2024 · 已发表</span></li>
+            <li><a href="publications.zh.html#paper-22">On the Saturation Effect of Kernel Ridge Regression</a><span class="project-paper-meta">2023 · 已发表</span></li>
+          </ul>
+        </article>
+        <article class="research-project" id="project-deep-learning">
+          <h3>深度学习理论与自适应特征</h3>
+          <p>研究神经网络的泛化能力、神经正切核理论的适用范围，以及学习到的特征所发挥的作用。通过过参数化序列模型与 RKHS 模型，理解特征自适应如何影响统计表现。</p>
+          <h4>研究问题</h4>
+          <ul class="plain-list">
+            <li>神经正切核理论能够解释什么，哪些学习现象需要刻画特征的变化？</li>
+            <li>过参数化与特征学习如何提升自适应性？</li>
+            <li>初始化与学习核的对齐关系如何影响泛化？</li>
+          </ul>
+          <h4>研究进展</h4>
+          <ul class="project-highlights">
+            <li><p>研究学习核的对齐关系与谱算法极小极大学习速率。</p><a href="publications.zh.html#paper-39">Alignment-Sensitive Minimax Rates for Spectral Algorithms with Learned Kernels</a><span class="project-paper-meta">2026 · 已发表</span></li>
+            <li><p>探索超越神经正切核理论的神经网络统计理解。</p><a href="publications.zh.html#paper-13">Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories</a><span class="project-paper-meta">2026 · 已在线发表</span></li>
+          </ul>
+          <h4>代表论文</h4>
+          <ul class="project-papers">
+            <li><a href="publications.zh.html#paper-2">Supporting Evidence for the Adaptive Feature Program across Diverse Models</a><span class="project-paper-meta">2025 · 预印本</span></li>
+            <li><a href="publications.zh.html#paper-6">Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity</a><span class="project-paper-meta">2025 · 预印本</span></li>
+            <li><a href="publications.zh.html#paper-8">Improving Adaptivity via Over-Parameterization in Sequence Models</a><span class="project-paper-meta">2024 · 已发表</span></li>
+            <li><a href="publications.zh.html#paper-9">On the Impacts of the Random Initialization in the Neural Tangent Kernel Theory</a><span class="project-paper-meta">2024 · 已发表</span></li>
+          </ul>
+        </article>
+        <article class="research-project" id="project-dimension-reduction">
+          <h3>高维统计与充分性降维</h3>
+          <p>研究如何从高维预测变量中恢复低维结构，以切片逆回归与单指标模型为主要对象，涵盖稀疏有限维情形及向函数型数据的推广。</p>
+          <h4>研究问题</h4>
+          <ul class="plain-list">
+            <li>高维情形下，切片逆回归何时具有一致性与统计最优性？</li>
+            <li>如何在降维中利用稀疏性并刻画结构维数？</li>
+            <li>这些方法如何推广到函数型预测变量与单指标模型推断？</li>
+          </ul>
+          <h4>研究进展</h4>
+          <ul class="project-highlights">
+            <li><p>研究切片逆回归的结构维数。</p><a href="publications.zh.html#paper-24">On the structural dimension of sliced inverse regression</a><span class="project-paper-meta">2026 · 已发表</span></li>
+            <li><p>研究函数型数据中切片逆回归的最优性。</p><a href="publications.zh.html#paper-36">On the Optimality of Functional Sliced Inverse Regression</a><span class="project-paper-meta">已接收，待正式出版 · 首次预印本年份: 2023</span></li>
+          </ul>
+          <h4>代表论文</h4>
+          <ul class="project-papers">
+            <li><a href="publications.zh.html#paper-25">On the optimality of sliced inverse regression in high dimensions</a><span class="project-paper-meta">2021 · 已发表</span></li>
+            <li><a href="publications.zh.html#paper-27">Sparse Sliced Inverse Regression via Lasso</a><span class="project-paper-meta">2019 · 已发表</span></li>
+            <li><a href="publications.zh.html#paper-29">On consistency and sparsity for sliced inverse regression in high dimensions</a><span class="project-paper-meta">2018 · 已发表</span></li>
+          </ul>
+        </article>
+        <p class="section-intro"><a href="publications.zh.html">完整论文列表</a> · <a href="#funding">基金与合作记录</a></p>
+      </section>
+      <!-- research-projects:end -->
+
+      <section id="funding">
+        <h2>基金与合作记录</h2>
+        <p class="section-intro">以下为<a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">教师主页</a>列出的基金与合作记录。</p>
         <article class="project" id="project-sdr">
           <h3>高维数据中的充分性降维问题</h3>
           <p>国家自然科学基金面上项目</p>
@@ -78,16 +154,6 @@
         </article>
       </section>
 
-      <section id="related-research">
-        <h2>相关研究成果</h2>
-        <p>近期论文围绕以下方向展开：</p>
-        <ul class="plain-list">
-          <li><strong>核方法与泛化理论：</strong><a href="publications.zh.html#paper-7">核岭回归的最优收敛速率</a>及<a href="publications.zh.html#paper-14">谱算法的饱和效应</a>。</li>
-          <li><strong>自适应特征学习：</strong><a href="publications.zh.html#paper-8">通过过参数化提升自适应性</a>及<a href="publications.zh.html#paper-39">使用学习核的谱算法</a>。</li>
-          <li><strong>充分性降维：</strong><a href="publications.zh.html#paper-27">基于 Lasso 的稀疏切片逆回归</a>及<a href="publications.zh.html#paper-24">切片逆回归的结构维数</a>。</li>
-        </ul>
-        <p class="section-intro">完整引文、发表状态与预印本见<a href="publications.zh.html">学术论文页面</a>。</p>
-      </section>
       <footer><span>© 2026 林乾</span><span>最后更新：<time datetime="2026-11-13">2026 年 11 月 13 日</time></span></footer>
     </main>
   </div>

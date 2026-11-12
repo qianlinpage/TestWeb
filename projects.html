@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Research Projects | Qian Lin</title>
-  <meta name="description" content="Qian Lin's research projects and collaborations in high-dimensional statistics, sufficient dimension reduction and the mathematical foundations of artificial intelligence at Tsinghua University.">
+  <meta name="description" content="Qian Lin's research projects on kernel methods and spectral algorithms, deep learning theory and adaptive features, and high-dimensional statistics and sufficient dimension reduction. Research questions, progress and selected papers.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="alternate" hreflang="en" href="projects.html">
@@ -33,7 +33,7 @@
       <p class="position">Associate Professor</p>
       <p class="affiliation">Department of Statistics and Data Science<br>Tsinghua University</p>
       <p class="location">Room 819, Lyu Dalong Building<br>Beijing, China</p>
-      <a class="email" href="mailto:qianlin@tsinghua.edu.cn">qianlin@tsinghua.edu.cn</a>
+      <span class="email" id="contact-email">qianlin [at] tsinghua [dot] edu [dot] cn</span>
       <div class="profile-links" aria-label="Profile links">
         <a href="https://scholar.google.com/citations?user=kHPrqdgAAAAJ&amp;hl=en">Google Scholar</a>
         <a href="https://github.com/qianlinpage">GitHub</a>
@@ -46,10 +46,86 @@
     </aside>
 
     <main id="main">
+      <!-- research-projects:start -->
       <section id="projects">
         <h2>Research projects</h2>
-        <p>My research studies the statistical foundations of learning algorithms, with an emphasis on high-dimensional inference, dimension reduction and the generalization of neural networks.</p>
-        <p class="section-intro">Selected projects and collaborations documented in my <a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">Tsinghua faculty profile</a>.</p>
+        <p>Three connected themes guide my work on the foundations of statistical learning. Each brings together research questions, progress and selected papers.</p>
+        <nav class="research-project-nav" id="related-research" aria-label="Research themes">
+          <a href="#project-kernel-methods">Kernel methods and spectral algorithms</a>
+          <a href="#project-deep-learning">Deep learning theory and adaptive features</a>
+          <a href="#project-dimension-reduction">High-dimensional statistics and sufficient dimension reduction</a>
+        </nav>
+        <article class="research-project" id="project-kernel-methods">
+          <h3>Kernel methods and spectral algorithms</h3>
+          <p>We study how regularization, dimension and the spectrum of the data shape statistical learning. This project connects kernel ridge regression, interpolation and spectral algorithms through their learning curves, convergence rates and saturation effects.</p>
+          <h4>Research questions</h4>
+          <ul class="plain-list">
+            <li>How do source conditions and model misspecification affect optimal learning rates?</li>
+            <li>How do interpolation, saturation and benign overfitting interact in large dimensions?</li>
+            <li>When can sequence models describe the risk of kernel regression?</li>
+          </ul>
+          <h4>Research progress</h4>
+          <ul class="project-highlights">
+            <li><p>Risk equivalence between RKHS regression and sequence models.</p><a href="publications.html#paper-40">Risk Equivalence between RKHS Regression and Sequence Models for Lipschitz Spectral Algorithms</a><span class="project-paper-meta">2026 · Preprint</span></li>
+            <li><p>Learning curves and benign overfitting for spectral algorithms in large dimensions.</p><a href="publications.html#paper-37">Learning Curves and Benign Overfitting of Spectral Algorithms in Large Dimensions</a><span class="project-paper-meta">2026 · Preprint</span></li>
+          </ul>
+          <h4>Selected papers</h4>
+          <ul class="project-papers">
+            <li><a href="publications.html#paper-7">Optimal Rates of Kernel Ridge Regression under Source Condition in Large Dimensions</a><span class="project-paper-meta">2025 · Published</span></li>
+            <li><a href="publications.html#paper-14">On the Saturation Effects of Spectral Algorithms in Large Dimensions</a><span class="project-paper-meta">2024 · Published</span></li>
+            <li><a href="publications.html#paper-22">On the Saturation Effect of Kernel Ridge Regression</a><span class="project-paper-meta">2023 · Published</span></li>
+          </ul>
+        </article>
+        <article class="research-project" id="project-deep-learning">
+          <h3>Deep learning theory and adaptive features</h3>
+          <p>We investigate generalization in neural networks, the scope of neural tangent kernel descriptions, and the role of learned features. Overparameterized sequence and RKHS models provide settings for studying how feature adaptation changes statistical performance.</p>
+          <h4>Research questions</h4>
+          <ul class="plain-list">
+            <li>What can neural tangent kernel theory explain, and which aspects of learning require a description of changing features?</li>
+            <li>How do overparameterization and feature learning improve adaptivity?</li>
+            <li>How do initialization and the alignment of learned kernels affect generalization?</li>
+          </ul>
+          <h4>Research progress</h4>
+          <ul class="project-highlights">
+            <li><p>Alignment-sensitive minimax rates for spectral algorithms with learned kernels.</p><a href="publications.html#paper-39">Alignment-Sensitive Minimax Rates for Spectral Algorithms with Learned Kernels</a><span class="project-paper-meta">2026 · Published</span></li>
+            <li><p>A statistical perspective on neural networks beyond neural tangent kernel theories.</p><a href="publications.html#paper-13">Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories</a><span class="project-paper-meta">2026 · Published online</span></li>
+          </ul>
+          <h4>Selected papers</h4>
+          <ul class="project-papers">
+            <li><a href="publications.html#paper-2">Supporting Evidence for the Adaptive Feature Program across Diverse Models</a><span class="project-paper-meta">2025 · Preprint</span></li>
+            <li><a href="publications.html#paper-6">Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity</a><span class="project-paper-meta">2025 · Preprint</span></li>
+            <li><a href="publications.html#paper-8">Improving Adaptivity via Over-Parameterization in Sequence Models</a><span class="project-paper-meta">2024 · Published</span></li>
+            <li><a href="publications.html#paper-9">On the Impacts of the Random Initialization in the Neural Tangent Kernel Theory</a><span class="project-paper-meta">2024 · Published</span></li>
+          </ul>
+        </article>
+        <article class="research-project" id="project-dimension-reduction">
+          <h3>High-dimensional statistics and sufficient dimension reduction</h3>
+          <p>We develop statistical theory for recovering low-dimensional structure from high-dimensional predictors. Sliced inverse regression and single-index models are central examples, with extensions from sparse finite-dimensional settings to functional data.</p>
+          <h4>Research questions</h4>
+          <ul class="plain-list">
+            <li>When is sliced inverse regression consistent and statistically optimal in high dimensions?</li>
+            <li>How can sparsity and structural dimension be incorporated into dimension reduction?</li>
+            <li>How do these ideas extend to functional predictors and single-index model inference?</li>
+          </ul>
+          <h4>Research progress</h4>
+          <ul class="project-highlights">
+            <li><p>The structural dimension of sliced inverse regression.</p><a href="publications.html#paper-24">On the structural dimension of sliced inverse regression</a><span class="project-paper-meta">2026 · Published</span></li>
+            <li><p>Optimality of sliced inverse regression for functional data.</p><a href="publications.html#paper-36">On the Optimality of Functional Sliced Inverse Regression</a><span class="project-paper-meta">Accepted, awaiting publication · First preprint: 2023</span></li>
+          </ul>
+          <h4>Selected papers</h4>
+          <ul class="project-papers">
+            <li><a href="publications.html#paper-25">On the optimality of sliced inverse regression in high dimensions</a><span class="project-paper-meta">2021 · Published</span></li>
+            <li><a href="publications.html#paper-27">Sparse Sliced Inverse Regression via Lasso</a><span class="project-paper-meta">2019 · Published</span></li>
+            <li><a href="publications.html#paper-29">On consistency and sparsity for sliced inverse regression in high dimensions</a><span class="project-paper-meta">2018 · Published</span></li>
+          </ul>
+        </article>
+        <p class="section-intro"><a href="publications.html">All publications</a> · <a href="#funding">Funding and collaborations</a></p>
+      </section>
+      <!-- research-projects:end -->
+
+      <section id="funding">
+        <h2>Funding and collaborations</h2>
+        <p class="section-intro">Funding and collaboration records listed in my <a href="https://www.stat.tsinghua.edu.cn/info/1023/2413.htm">faculty profile</a>.</p>
         <article class="project" id="project-sdr">
           <h3>Sufficient Dimension Reduction in High-Dimensional Data</h3>
           <p>National Natural Science Foundation of China · General Program</p>
@@ -78,16 +154,6 @@
         </article>
       </section>
 
-      <section id="related-research">
-        <h2>Related research</h2>
-        <p>Recent papers develop these interests in several directions:</p>
-        <ul class="plain-list">
-          <li><strong>Kernel methods and generalization:</strong> <a href="publications.html#paper-7">optimal rates of kernel ridge regression</a> and <a href="publications.html#paper-14">saturation effects of spectral algorithms</a>.</li>
-          <li><strong>Adaptive feature learning:</strong> <a href="publications.html#paper-8">adaptivity through overparameterization</a> and <a href="publications.html#paper-39">spectral algorithms with learned kernels</a>.</li>
-          <li><strong>Sufficient dimension reduction:</strong> <a href="publications.html#paper-27">sparse sliced inverse regression via lasso</a> and <a href="publications.html#paper-24">the structural dimension of sliced inverse regression</a>.</li>
-        </ul>
-        <p class="section-intro">See the <a href="publications.html">publications page</a> for full references, publication status and preprints.</p>
-      </section>
       <footer><span>© 2026 Qian Lin</span><span>Last updated: <time datetime="2026-11-13">13 November 2026</time></span></footer>
     </main>
   </div>

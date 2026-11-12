@@ -25,6 +25,19 @@ section{margin-bottom:34px}h2{font-size:22px;font-weight:600;letter-spacing:-.4p
 .merge-note{padding-left:10px;border-left:2px solid #dae5ed}.paper-links{flex-wrap:wrap}
 .publication{display:grid;grid-template-columns:102px minmax(0,1fr);gap:22px;padding:21px 0;border-bottom:1px solid var(--line)}.paper-mark{height:100px;background:#edf3f7;border:1px solid #dae5ed;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:9px;letter-spacing:1.3px;color:#56758d}.paper-mark span{font-family:Georgia,serif;font-size:36px;line-height:1.4;letter-spacing:0}.paper-mark.second{background:#f0f4ef;border-color:#e0e7dd;color:#6c7d60}.paper-content h3{color:var(--blue);font-size:16px}.authors,.venue,.paper-summary{font-size:13px;margin:5px 0}.venue{font-style:italic}.paper-summary{color:var(--muted);line-height:1.65}.paper-links{display:flex;gap:14px;font-size:11px;color:var(--muted);margin-top:9px}details{margin-top:6px;font-size:12px}summary{cursor:pointer;color:var(--blue);width:fit-content}pre{padding:12px;background:var(--soft);font-size:11px;overflow:auto;line-height:1.6;max-width:100%}
 .project,.teaching-entry{margin:19px 0}.project p,.teaching-entry p{font-size:14px;margin-bottom:3px}.project-meta{font-size:11px;color:var(--muted)}.timeline-row{display:grid;grid-template-columns:112px 1fr;gap:15px;margin:17px 0}.date{font-size:12px;color:var(--muted);padding-top:2px}.timeline-row p{font-size:13px;margin:0;color:var(--muted)}.plain-list{padding-left:19px;font-size:14px}.plain-list li{margin-bottom:9px}footer{border-top:1px solid var(--line);padding:20px 0 28px;display:flex;justify-content:space-between;gap:15px;font-size:11px;color:var(--muted)}
+/* Research themes; funding records retain the compact project style. */
+.research-project-nav{display:flex;flex-wrap:wrap;gap:8px 20px;margin:20px 0;padding:14px 16px;background:var(--soft);border-radius:6px;line-height:1.6}
+.research-project-nav a{color:var(--blue)}
+.research-project{padding:26px 0;border-top:1px solid var(--line)}
+.research-project h3{font-size:20px;line-height:1.45;margin-bottom:12px}
+.research-project h4{font-size:13px;font-weight:600;margin:20px 0 8px}
+.research-project>p{font-size:14px}
+.project-highlights,.project-papers{list-style:none;padding:0;margin:0;font-size:13px}
+.project-highlights li{padding-left:12px;border-left:2px solid #dae5ed;margin:14px 0}
+.project-highlights p{font-size:14px;margin:0 0 5px}
+.project-papers li{margin:12px 0}
+.project-paper-meta{display:block;color:var(--muted);font-size:11px;margin-top:3px}
+@media print{.research-project{break-inside:avoid}#projects{break-inside:auto}}
 @media(min-width:1200px){.layout{gap:75px}}
 @media(max-width:800px){.header-inner{padding:18px 24px;flex-wrap:wrap;gap:10px}nav{gap:20px}.layout{grid-template-columns:200px minmax(0,1fr);gap:30px;padding:32px 24px 0}.portrait{width:145px;height:145px}.publication{grid-template-columns:1fr}.paper-mark{display:none}.wordmark span{display:none}}
 @media(max-width:600px){html{scroll-padding-top:20px}.header-inner{display:block}.wordmark{font-size:15px}nav{margin-top:12px;gap:18px;flex-wrap:wrap;font-size:12px}.layout{display:block;padding:27px 22px 0}.profile{position:static;margin-bottom:30px;display:flow-root}.portrait{float:right;width:96px;height:96px;margin:0 0 15px 15px}h1{font-size:25px}.chinese-name{font-size:15px}.research-topics{clear:both;padding-top:14px;margin-top:18px}.research-topics ul{display:flex;flex-wrap:wrap;gap:4px 15px}.profile-note{margin-bottom:0!important}.section-heading{flex-wrap:wrap;gap:0;padding-bottom:7px}.section-heading h2{padding-bottom:4px}.news-list li{grid-template-columns:68px 1fr;gap:8px}.timeline-row{grid-template-columns:100px 1fr;gap:10px}footer{flex-wrap:wrap}h2{font-size:21px}}

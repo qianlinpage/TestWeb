@@ -1,0 +1,139 @@
+{
+  "updated_on": "2026-11-13",
+  "scope": "Three research themes selected by the user. Summaries and progress refer to the listed paper IDs; funding records are maintained separately.",
+  "projects": [
+    {
+      "id": "project-kernel-methods",
+      "title": {
+        "en": "Kernel methods and spectral algorithms",
+        "zh": "核方法与谱算法"
+      },
+      "summary": {
+        "en": "We study how regularization, dimension and the spectrum of the data shape statistical learning. This project connects kernel ridge regression, interpolation and spectral algorithms through their learning curves, convergence rates and saturation effects.",
+        "zh": "研究正则化、维数与数据谱结构如何影响统计学习，将核岭回归、核插值与谱算法的学习曲线、收敛速率和饱和效应联系起来。"
+      },
+      "questions": {
+        "en": [
+          "How do source conditions and model misspecification affect optimal learning rates?",
+          "How do interpolation, saturation and benign overfitting interact in large dimensions?",
+          "When can sequence models describe the risk of kernel regression?"
+        ],
+        "zh": [
+          "源条件与模型误设如何影响最优学习速率？",
+          "高维情形下，插值、饱和效应与良性过拟合之间有什么关系？",
+          "何时可以用序列模型刻画核回归的风险？"
+        ]
+      },
+      "highlights": [
+        {
+          "paper_id": 40,
+          "summary": {
+            "en": "Risk equivalence between RKHS regression and sequence models.",
+            "zh": "研究 RKHS 回归与序列模型之间的风险等价关系。"
+          }
+        },
+        {
+          "paper_id": 37,
+          "summary": {
+            "en": "Learning curves and benign overfitting for spectral algorithms in large dimensions.",
+            "zh": "研究高维谱算法的学习曲线与良性过拟合。"
+          }
+        }
+      ],
+      "selected_paper_ids": [
+        7,
+        14,
+        22
+      ]
+    },
+    {
+      "id": "project-deep-learning",
+      "title": {
+        "en": "Deep learning theory and adaptive features",
+        "zh": "深度学习理论与自适应特征"
+      },
+      "summary": {
+        "en": "We investigate generalization in neural networks, the scope of neural tangent kernel descriptions, and the role of learned features. Overparameterized sequence and RKHS models provide settings for studying how feature adaptation changes statistical performance.",
+        "zh": "研究神经网络的泛化能力、神经正切核理论的适用范围，以及学习到的特征所发挥的作用。通过过参数化序列模型与 RKHS 模型，理解特征自适应如何影响统计表现。"
+      },
+      "questions": {
+        "en": [
+          "What can neural tangent kernel theory explain, and which aspects of learning require a description of changing features?",
+          "How do overparameterization and feature learning improve adaptivity?",
+          "How do initialization and the alignment of learned kernels affect generalization?"
+        ],
+        "zh": [
+          "神经正切核理论能够解释什么，哪些学习现象需要刻画特征的变化？",
+          "过参数化与特征学习如何提升自适应性？",
+          "初始化与学习核的对齐关系如何影响泛化？"
+        ]
+      },
+      "highlights": [
+        {
+          "paper_id": 39,
+          "summary": {
+            "en": "Alignment-sensitive minimax rates for spectral algorithms with learned kernels.",
+            "zh": "研究学习核的对齐关系与谱算法极小极大学习速率。"
+          }
+        },
+        {
+          "paper_id": 13,
+          "summary": {
+            "en": "A statistical perspective on neural networks beyond neural tangent kernel theories.",
+            "zh": "探索超越神经正切核理论的神经网络统计理解。"
+          }
+        }
+      ],
+      "selected_paper_ids": [
+        2,
+        6,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "project-dimension-reduction",
+      "title": {
+        "en": "High-dimensional statistics and sufficient dimension reduction",
+        "zh": "高维统计与充分性降维"
+      },
+      "summary": {
+        "en": "We develop statistical theory for recovering low-dimensional structure from high-dimensional predictors. Sliced inverse regression and single-index models are central examples, with extensions from sparse finite-dimensional settings to functional data.",
+        "zh": "研究如何从高维预测变量中恢复低维结构，以切片逆回归与单指标模型为主要对象，涵盖稀疏有限维情形及向函数型数据的推广。"
+      },
+      "questions": {
+        "en": [
+          "When is sliced inverse regression consistent and statistically optimal in high dimensions?",
+          "How can sparsity and structural dimension be incorporated into dimension reduction?",
+          "How do these ideas extend to functional predictors and single-index model inference?"
+        ],
+        "zh": [
+          "高维情形下，切片逆回归何时具有一致性与统计最优性？",
+          "如何在降维中利用稀疏性并刻画结构维数？",
+          "这些方法如何推广到函数型预测变量与单指标模型推断？"
+        ]
+      },
+      "highlights": [
+        {
+          "paper_id": 24,
+          "summary": {
+            "en": "The structural dimension of sliced inverse regression.",
+            "zh": "研究切片逆回归的结构维数。"
+          }
+        },
+        {
+          "paper_id": 36,
+          "summary": {
+            "en": "Optimality of sliced inverse regression for functional data.",
+            "zh": "研究函数型数据中切片逆回归的最优性。"
+          }
+        }
+      ],
+      "selected_paper_ids": [
+        25,
+        27,
+        29
+      ]
+    }
+  ]
+}
