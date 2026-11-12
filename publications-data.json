@@ -1,7 +1,7 @@
 {
   "checked_on": "2026-11-12",
-  "scope": "34 entries present on the bilingual publication pages before verification.",
-  "year_policy": "Journal issue or conference year; online year when no issue is assigned; first arXiv year for preprints. A future issue assignment is explicitly labelled. An unverified submission retains the submission-cycle year.",
+  "scope": "Reconciled against 47 Google Scholar records supplied by the user on 2026-11-12, existing verified entries, and primary publisher/arXiv records; includes one additional September 2026 preprint discovered on a coauthor's publication page.",
+  "year_policy": "Journal issue or conference year for published work; online year when no issue is assigned; first arXiv year for preprints and accepted manuscripts awaiting formal publication. Future issue assignments are explicitly labelled. Unverified submissions retain the submission-cycle year.",
   "papers": [
     {
       "id": 17,
@@ -27,30 +27,32 @@
         "https://api.crossref.org/works/10.1016/j.acha.2026.101920",
         "https://arxiv.org/abs/2401.01599"
       ],
-      "previous_title": "Generalization Error Curves for Analytic Spectral Algorithms under Power-law Decay"
+      "previous_title": "Generalization Error Curves for Analytic Spectral Algorithms under Power-law Decay",
+      "scholar_rows": [
+        12
+      ]
     },
     {
-      "id": 24,
-      "title": "On the structural dimension of sliced inverse regression",
+      "id": 1,
+      "title": "Optimal Confidence Band for Kernel Gradient Flow Estimator",
       "authors": [
-        "Dongming Huang",
-        "Songtao Tian",
+        "Yuqian Cheng",
+        "Zhuo Chen",
         "Qian Lin"
       ],
       "year": 2026,
-      "venue": "The Annals of Statistics 54(1), pp. 25–47, 2026",
-      "url": "https://doi.org/10.1214/25-AOS2505",
-      "status": "published",
-      "type": "journal",
-      "doi": "10.1214/25-AOS2505",
-      "arxiv": "2305.04340",
+      "venue": "arXiv:2605.05768, 2026",
+      "url": "https://arxiv.org/abs/2605.05768",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2605.05768",
       "sources": [
-        "https://doi.org/10.1214/25-AOS2505",
-        "https://imstat.org/publications/aos/aos_54_1/aos_54_1.pdf",
-        "https://api.crossref.org/works/10.1214/25-AOS2505",
-        "https://arxiv.org/abs/2305.04340"
+        "https://arxiv.org/abs/2605.05768"
       ],
-      "previous_title": "On the Structural Dimension of Sliced Inverse Regression"
+      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication.",
+      "scholar_rows": [
+        36
+      ]
     },
     {
       "id": 13,
@@ -76,26 +78,174 @@
         "https://api.crossref.org/works/10.1016/j.slads.2026.100026",
         "https://arxiv.org/abs/2412.18756"
       ],
-      "previous_title": "Towards a Statistical Understanding of Neural Networks: Beyond the Neural Tangent Kernel Theories"
+      "previous_title": "Towards a Statistical Understanding of Neural Networks: Beyond the Neural Tangent Kernel Theories",
+      "scholar_rows": [
+        34
+      ]
     },
     {
-      "id": 1,
-      "title": "Optimal Confidence Band for Kernel Gradient Flow Estimator",
+      "id": 24,
+      "title": "On the structural dimension of sliced inverse regression",
       "authors": [
+        "Dongming Huang",
+        "Songtao Tian",
+        "Qian Lin"
+      ],
+      "year": 2026,
+      "venue": "The Annals of Statistics 54(1), pp. 25–47, 2026",
+      "url": "https://doi.org/10.1214/25-AOS2505",
+      "status": "published",
+      "type": "journal",
+      "doi": "10.1214/25-AOS2505",
+      "arxiv": "2305.04340",
+      "sources": [
+        "https://doi.org/10.1214/25-AOS2505",
+        "https://imstat.org/publications/aos/aos_54_1/aos_54_1.pdf",
+        "https://api.crossref.org/works/10.1214/25-AOS2505",
+        "https://arxiv.org/abs/2305.04340",
+        "https://arxiv.org/abs/2305.04340v1"
+      ],
+      "previous_title": "On the Structural Dimension of Sliced Inverse Regression",
+      "merge_note_zh": "旧题名“Sliced Inverse Regression with Large Structural Dimensions”（arXiv:2305.04340v1，2023）与当前题名属于同一工作，已合并至 2026 年正式发表记录。",
+      "merge_note_en": "The earlier title “Sliced Inverse Regression with Large Structural Dimensions” (arXiv:2305.04340v1, 2023) and the current title are the same work; both are represented by this 2026 publication.",
+      "scholar_rows": [
+        30,
+        33
+      ]
+    },
+    {
+      "id": 37,
+      "title": "Learning Curves and Benign Overfitting of Spectral Algorithms in Large Dimensions",
+      "authors": [
+        "Weihao Lu",
+        "Qian Lin",
+        "Yingcun Xia",
+        "Dongming Huang"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2604.23212, 2026",
+      "url": "https://arxiv.org/abs/2604.23212",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2604.23212",
+      "sources": [
+        "https://arxiv.org/abs/2604.23212",
+        "https://luweihao.github.io/"
+      ],
+      "audit_note": "Primary arXiv record and title searches checked on 2026-11-12; no formal publication identified.",
+      "scholar_rows": [
+        32
+      ]
+    },
+    {
+      "id": 38,
+      "title": "Large Dimensional Kernel Ridge Regression: Extending to Product Kernels",
+      "authors": [
+        "Yang Zhou",
+        "Yicheng Li",
+        "Yuqian Cheng",
+        "Qian Lin"
+      ],
+      "year": 2026,
+      "venue": "arXiv:2605.14524, 2026",
+      "url": "https://arxiv.org/abs/2605.14524",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2605.14524",
+      "sources": [
+        "https://arxiv.org/abs/2605.14524",
+        "https://ezrnest.github.io/publications/",
+        "https://openreview.net/pdf/8f082428b85e94cb61a31fc56e3b66a23f3521a2.pdf"
+      ],
+      "audit_note": "Primary arXiv record and title searches checked on 2026-11-12; no formal publication identified.",
+      "previous_title": "Exact Rates and Saturation Effect of Kernel Ridge Regression over Unbounded Input Space in Large Dimensions",
+      "merge_note_zh": "旧题名“Exact Rates and Saturation Effect of Kernel Ridge Regression over Unbounded Input Space in Large Dimensions”是本论文的早期版本，已合并至本条，采用当前 arXiv 题名；不作为另一个 ICLR 发表记录。",
+      "merge_note_en": "The earlier manuscript titled “Exact Rates and Saturation Effect of Kernel Ridge Regression over Unbounded Input Space in Large Dimensions” is merged here under the current arXiv title, rather than counted as a separate ICLR publication.",
+      "merge_basis": "The user confirmed on 2026-11-12 that the Exact Rates manuscript is an earlier version of the Product Kernels paper. The supplied Scholar records have the same four authors. No ICLR acceptance is asserted.",
+      "related_materials": [
+        {
+          "url": "https://openreview.net/forum?id=e0zcvj4nLy",
+          "label_zh": "旧题名稿件",
+          "label_en": "Earlier manuscript"
+        }
+      ],
+      "scholar_rows": [
+        37,
+        46
+      ]
+    },
+    {
+      "id": 39,
+      "title": "Alignment-Sensitive Minimax Rates for Spectral Algorithms with Learned Kernels",
+      "authors": [
+        "Dongming Huang",
+        "Zhifan Li",
+        "Yicheng Li",
+        "Qian Lin"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 43rd International Conference on Machine Learning (ICML), PMLR 306, pp. 46851–46928, 2026",
+      "url": "https://proceedings.mlr.press/v306/huang26w.html",
+      "status": "published",
+      "type": "conference",
+      "arxiv": "2509.20294",
+      "sources": [
+        "https://proceedings.mlr.press/v306/huang26w.html",
+        "https://arxiv.org/abs/2509.20294",
+        "https://ezrnest.github.io/publications/"
+      ],
+      "note_zh": "Google Scholar 所列 2025 年 arXiv 预印本已发表于 ICML 2026；合并为本条正式发表记录，保留 arXiv 链接。",
+      "note_en": "The 2025 arXiv version listed in Google Scholar was published at ICML 2026. Both versions are represented by this publication entry, with the arXiv link retained.",
+      "scholar_rows": [
+        40
+      ]
+    },
+    {
+      "id": 40,
+      "title": "Risk Equivalence between RKHS Regression and Sequence Models for Lipschitz Spectral Algorithms",
+      "authors": [
+        "Yicheng Li",
         "Yuqian Cheng",
         "Zhuo Chen",
         "Qian Lin"
       ],
       "year": 2026,
-      "venue": "arXiv:2605.05768, 2026",
-      "url": "https://arxiv.org/abs/2605.05768",
+      "venue": "arXiv:2609.08817, 2026",
+      "url": "https://arxiv.org/abs/2609.08817",
       "status": "preprint",
       "type": "preprint",
-      "arxiv": "2605.05768",
+      "arxiv": "2609.08817",
       "sources": [
-        "https://arxiv.org/abs/2605.05768"
+        "https://arxiv.org/abs/2609.08817",
+        "https://ezrnest.github.io/publications/"
       ],
-      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication."
+      "audit_note": "Primary arXiv record and title searches checked on 2026-11-12; no formal publication identified. Additional paper found on arXiv and a coauthor's publication page, absent from the supplied 47-row Scholar list.",
+      "scholar_rows": []
+    },
+    {
+      "id": 2,
+      "title": "Supporting Evidence for the Adaptive Feature Program across Diverse Models",
+      "authors": [
+        "Yicheng Li",
+        "Qian Lin"
+      ],
+      "year": 2025,
+      "venue": "arXiv:2511.09425, 2025; revised 2026",
+      "url": "https://arxiv.org/abs/2511.09425",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2511.09425",
+      "audit_note": "Latest arXiv version v3 (2026-04-07) changes the title from Several Supporting Evidences for the Adaptive Feature Program. No formal publication found.",
+      "sources": [
+        "https://arxiv.org/abs/2511.09425"
+      ],
+      "previous_title": "Several Supporting Evidences for the Adaptive Feature Program",
+      "merge_note_zh": "旧题名“Several Supporting Evidences for the Adaptive Feature Program”与当前题名共用 arXiv:2511.09425，已合并，采用最新版题名。",
+      "merge_note_en": "The earlier title “Several Supporting Evidences for the Adaptive Feature Program” and the current title share arXiv:2511.09425. Listed once under the latest title.",
+      "scholar_rows": [
+        38,
+        39
+      ]
     },
     {
       "id": 3,
@@ -115,6 +265,74 @@
         "https://proceedings.neurips.cc/paper_files/paper/2025/hash/ec2833cda146c277cdaa39066764f25c-Abstract-Conference.html",
         "https://proceedings.neurips.cc/paper_files/paper/28651-/bibtex",
         "https://api.crossref.org/works/10.52202/085713-5389"
+      ],
+      "note_zh": "Google Scholar 将本条标为 2026；按 NeurIPS 官方论文集的会议年份统一列为 2025。",
+      "note_en": "Google Scholar lists 2026; the official NeurIPS proceedings identify the conference year as 2025, used here.",
+      "scholar_rows": [
+        27
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Neural Tangent Kernel of Neural Networks with Loss Informed by Differential Operators",
+      "authors": [
+        "Weiye Gan",
+        "Yicheng Li",
+        "Qian Lin",
+        "Zuoqiang Shi"
+      ],
+      "year": 2025,
+      "venue": "arXiv:2503.11029, 2025",
+      "url": "https://arxiv.org/abs/2503.11029",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2503.11029",
+      "sources": [
+        "https://arxiv.org/abs/2503.11029",
+        "https://shizqi.github.io/pubs.html"
+      ],
+      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication.",
+      "scholar_rows": [
+        23
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Bounds on the Reconstruction Error of Kernel PCA with Interpolation Spaces Norms",
+      "authors": [],
+      "year": 2025,
+      "venue": "ICLR 2025 submission · OpenReview",
+      "url": "https://openreview.net/forum?id=5FKIynMPV6",
+      "status": "unverified",
+      "type": "manuscript",
+      "sources": [
+        "https://openreview.net/forum?id=5FKIynMPV6",
+        "https://openreview.net/pdf?id=5FKIynMPV6"
+      ],
+      "note_zh": "公开原稿标为匿名审稿稿件；作者信息及正式发表状态待核实，不计入已发表论文。",
+      "note_en": "The public PDF is an anonymous submission. Authorship and formal publication remain unverified; excluded from the published count.",
+      "audit_note": "The prior page incorrectly treated an ICLR 2025 submission as an accepted conference paper. The primary PDF says under review and is anonymous. OpenReview forum/API require verification. Secondary indexing reports withdrawal but is insufficient to assert that status here; no acceptance found in the official conference sources.",
+      "scholar_rows": []
+    },
+    {
+      "id": 6,
+      "title": "Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity",
+      "authors": [
+        "Yicheng Li",
+        "Qian Lin"
+      ],
+      "year": 2025,
+      "venue": "arXiv:2501.08679, 2025",
+      "url": "https://arxiv.org/abs/2501.08679",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2501.08679",
+      "sources": [
+        "https://arxiv.org/abs/2501.08679"
+      ],
+      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication.",
+      "scholar_rows": [
+        24
       ]
     },
     {
@@ -135,6 +353,9 @@
       "sources": [
         "https://www.jmlr.org/papers/v26/23-1679.html",
         "https://arxiv.org/abs/2401.01270"
+      ],
+      "scholar_rows": [
+        14
       ]
     },
     {
@@ -158,82 +379,10 @@
         "https://api.crossref.org/works/10.1093/biomet/asae057",
         "https://arxiv.org/abs/2404.12597"
       ],
-      "previous_title": "The Phase Diagram of Kernel Interpolation in Large Dimensions"
-    },
-    {
-      "id": 2,
-      "title": "Supporting Evidence for the Adaptive Feature Program across Diverse Models",
-      "authors": [
-        "Yicheng Li",
-        "Qian Lin"
-      ],
-      "year": 2025,
-      "venue": "arXiv:2511.09425, 2025; revised 2026",
-      "url": "https://arxiv.org/abs/2511.09425",
-      "status": "preprint",
-      "type": "preprint",
-      "arxiv": "2511.09425",
-      "audit_note": "Latest arXiv version v3 (2026-04-07) changes the title from Several Supporting Evidences for the Adaptive Feature Program. No formal publication found.",
-      "sources": [
-        "https://arxiv.org/abs/2511.09425"
-      ],
-      "previous_title": "Several Supporting Evidences for the Adaptive Feature Program"
-    },
-    {
-      "id": 4,
-      "title": "Neural Tangent Kernel of Neural Networks with Loss Informed by Differential Operators",
-      "authors": [
-        "Weiye Gan",
-        "Yicheng Li",
-        "Qian Lin",
-        "Zuoqiang Shi"
-      ],
-      "year": 2025,
-      "venue": "arXiv:2503.11029, 2025",
-      "url": "https://arxiv.org/abs/2503.11029",
-      "status": "preprint",
-      "type": "preprint",
-      "arxiv": "2503.11029",
-      "sources": [
-        "https://arxiv.org/abs/2503.11029",
-        "https://shizqi.github.io/pubs.html"
-      ],
-      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication."
-    },
-    {
-      "id": 6,
-      "title": "Diagonal Over-parameterization in Reproducing Kernel Hilbert Spaces as an Adaptive Feature Model: Generalization and Adaptivity",
-      "authors": [
-        "Yicheng Li",
-        "Qian Lin"
-      ],
-      "year": 2025,
-      "venue": "arXiv:2501.08679, 2025",
-      "url": "https://arxiv.org/abs/2501.08679",
-      "status": "preprint",
-      "type": "preprint",
-      "arxiv": "2501.08679",
-      "sources": [
-        "https://arxiv.org/abs/2501.08679"
-      ],
-      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication."
-    },
-    {
-      "id": 5,
-      "title": "Bounds on the Reconstruction Error of Kernel PCA with Interpolation Spaces Norms",
-      "authors": [],
-      "year": 2025,
-      "venue": "ICLR 2025 submission · OpenReview",
-      "url": "https://openreview.net/forum?id=5FKIynMPV6",
-      "status": "unverified",
-      "type": "manuscript",
-      "sources": [
-        "https://openreview.net/forum?id=5FKIynMPV6",
-        "https://openreview.net/pdf?id=5FKIynMPV6"
-      ],
-      "note_zh": "公开原稿标为匿名审稿稿件；作者信息及正式发表状态待核实，不计入已发表论文。",
-      "note_en": "The public PDF is an anonymous submission. Authorship and formal publication remain unverified; excluded from the published count.",
-      "audit_note": "The prior page incorrectly treated an ICLR 2025 submission as an accepted conference paper. The primary PDF says under review and is anonymous. OpenReview forum/API require verification. Secondary indexing reports withdrawal but is insufficient to assert that status here; no acceptance found in the official conference sources."
+      "previous_title": "The Phase Diagram of Kernel Interpolation in Large Dimensions",
+      "scholar_rows": [
+        17
+      ]
     },
     {
       "id": 8,
@@ -255,7 +404,10 @@
         "https://api.crossref.org/works/10.52202/079017-1662",
         "https://arxiv.org/abs/2409.00894"
       ],
-      "previous_title": "Improving adaptivity via over-parameterization in sequence models"
+      "previous_title": "Improving adaptivity via over-parameterization in sequence models",
+      "scholar_rows": [
+        25
+      ]
     },
     {
       "id": 9,
@@ -278,7 +430,10 @@
         "https://api.crossref.org/works/10.52202/079017-1132",
         "https://arxiv.org/abs/2410.05626"
       ],
-      "previous_title": "On the impacts of the random initialization in the neural tangent kernel theory"
+      "previous_title": "On the impacts of the random initialization in the neural tangent kernel theory",
+      "scholar_rows": [
+        20
+      ]
     },
     {
       "id": 10,
@@ -300,6 +455,9 @@
         "https://doi.org/10.1093/biomet/asad048",
         "https://api.crossref.org/works/10.1093/biomet/asad048",
         "https://arxiv.org/abs/2303.15809"
+      ],
+      "scholar_rows": [
+        11
       ]
     },
     {
@@ -321,7 +479,10 @@
         "https://www.jmlr.org/papers/v25/23-0383.html",
         "https://arxiv.org/abs/2303.14942"
       ],
-      "previous_title": "On the optimality of misspecified spectral algorithms"
+      "previous_title": "On the optimality of misspecified spectral algorithms",
+      "scholar_rows": [
+        7
+      ]
     },
     {
       "id": 14,
@@ -341,45 +502,15 @@
       "sources": [
         "https://proceedings.neurips.cc/paper_files/paper/2024/hash/0d3496dd0cec77a999c98d35003203ca-Abstract-Conference.html",
         "https://proceedings.neurips.cc/paper_files/paper/27126-/bibtex",
-        "https://api.crossref.org/works/10.52202/079017-0225"
-      ]
-    },
-    {
-      "id": 16,
-      "title": "The Optimality of Kernel Classifiers in Sobolev Space",
-      "authors": [
-        "Jianfa Lai",
-        "Zhifan Li",
-        "Dongming Huang",
-        "Qian Lin"
+        "https://api.crossref.org/works/10.52202/079017-0225",
+        "https://arxiv.org/abs/2503.00504"
       ],
-      "year": 2024,
-      "venue": "12th International Conference on Learning Representations (ICLR), 2024",
-      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Paper-Conference.pdf",
-      "status": "published",
-      "type": "conference",
-      "sources": [
-        "https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Paper-Conference.pdf"
-      ]
-    },
-    {
-      "id": 18,
-      "title": "On the Eigenvalue Decay Rates of a Class of Neural-Network Related Kernel Functions Defined on General Domains",
-      "authors": [
-        "Yicheng Li",
-        "Zixiong Yu",
-        "Guhan Chen",
-        "Qian Lin"
-      ],
-      "year": 2024,
-      "venue": "Journal of Machine Learning Research 25(82), pp. 1–47, 2024",
-      "url": "https://www.jmlr.org/papers/v25/23-0866.html",
-      "status": "published",
-      "type": "journal",
-      "arxiv": "2305.02657",
-      "sources": [
-        "https://www.jmlr.org/papers/v25/23-0866.html",
-        "https://arxiv.org/abs/2305.02657"
+      "arxiv": "2503.00504",
+      "merge_note_zh": "Google Scholar 分列的 NeurIPS 2024 论文与 2025 年上传的 arXiv:2503.00504 已合并，按会议年份 2024 年列示。",
+      "merge_note_en": "The NeurIPS 2024 paper and arXiv:2503.00504, uploaded in 2025, are merged and listed under the conference year, 2024.",
+      "scholar_rows": [
+        21,
+        41
       ]
     },
     {
@@ -401,7 +532,61 @@
       "sources": [
         "https://arxiv.org/abs/2409.00915"
       ],
-      "previous_title": "On the Pinsker Bound of Inner Product Kernel Regression in Large Dimensions"
+      "previous_title": "On the Pinsker Bound of Inner Product Kernel Regression in Large Dimensions",
+      "scholar_rows": [
+        35
+      ]
+    },
+    {
+      "id": 16,
+      "title": "The Optimality of Kernel Classifiers in Sobolev Space",
+      "authors": [
+        "Jianfa Lai",
+        "Zhifan Li",
+        "Dongming Huang",
+        "Qian Lin"
+      ],
+      "year": 2024,
+      "venue": "12th International Conference on Learning Representations (ICLR), 2024",
+      "url": "https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Paper-Conference.pdf",
+      "status": "published",
+      "type": "conference",
+      "sources": [
+        "https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Paper-Conference.pdf",
+        "https://arxiv.org/abs/2402.01148",
+        "https://proceedings.iclr.cc/paper_files/paper/2024/file/387f59fa721b25b9f80c5ad7825cd0dd-Supplementary-Conference.pdf"
+      ],
+      "arxiv": "2402.01148",
+      "merge_note_zh": "Google Scholar 中题名截断为“SOBOLEV SPACE”的条目已合并至本论文；完整题名与四位作者以 ICLR 2024 官方论文为准。",
+      "merge_note_en": "The Google Scholar record truncated to “SOBOLEV SPACE” is merged into this paper. The complete title and four-author list follow the official ICLR 2024 paper.",
+      "audit_note": "The supplied Scholar full-title entry omits Zhifan Li and lists unverified page numbers. Retain the four-author list from the official ICLR PDF; do not copy unsupported pagination.",
+      "scholar_rows": [
+        28,
+        47
+      ]
+    },
+    {
+      "id": 18,
+      "title": "On the Eigenvalue Decay Rates of a Class of Neural-Network Related Kernel Functions Defined on General Domains",
+      "authors": [
+        "Yicheng Li",
+        "Zixiong Yu",
+        "Guhan Chen",
+        "Qian Lin"
+      ],
+      "year": 2024,
+      "venue": "Journal of Machine Learning Research 25(82), pp. 1–47, 2024",
+      "url": "https://www.jmlr.org/papers/v25/23-0866.html",
+      "status": "published",
+      "type": "journal",
+      "arxiv": "2305.02657",
+      "sources": [
+        "https://www.jmlr.org/papers/v25/23-0866.html",
+        "https://arxiv.org/abs/2305.02657"
+      ],
+      "scholar_rows": [
+        3
+      ]
     },
     {
       "id": 19,
@@ -424,47 +609,11 @@
         "https://api.crossref.org/works/10.52202/075280-2147",
         "https://arxiv.org/abs/2309.13337"
       ],
-      "previous_title": "On the asymptotic learning curves of kernel ridge regression under power-law decay"
-    },
-    {
-      "id": 21,
-      "title": "On the Optimality of Misspecified Kernel Ridge Regression",
-      "authors": [
-        "Haobo Zhang",
-        "Yicheng Li",
-        "Weihao Lu",
-        "Qian Lin"
-      ],
-      "year": 2023,
-      "venue": "40th International Conference on Machine Learning (ICML), Proceedings of Machine Learning Research 202, pp. 41331–41353, 2023",
-      "url": "https://proceedings.mlr.press/v202/zhang23x.html",
-      "status": "published",
-      "type": "conference",
-      "arxiv": "2305.07241",
-      "sources": [
-        "https://proceedings.mlr.press/v202/zhang23x.html",
-        "https://arxiv.org/abs/2305.07241"
+      "previous_title": "On the asymptotic learning curves of kernel ridge regression under power-law decay",
+      "audit_note": "The supplied Scholar author list omits Haobo Zhang. Retain all three authors from the official NeurIPS 2023 proceedings.",
+      "scholar_rows": [
+        10
       ]
-    },
-    {
-      "id": 22,
-      "title": "On the Saturation Effect of Kernel Ridge Regression",
-      "authors": [
-        "Yicheng Li",
-        "Haobo Zhang",
-        "Qian Lin"
-      ],
-      "year": 2023,
-      "venue": "11th International Conference on Learning Representations (ICLR), 2023",
-      "url": "https://iclr.cc/virtual/2023/poster/11902",
-      "status": "published",
-      "type": "conference",
-      "sources": [
-        "https://iclr.cc/virtual/2023/poster/11902",
-        "https://openreview.net/forum?id=tFvr-kYWs_Y"
-      ],
-      "audit_note": "Official ICLR title uses singular Effect.",
-      "previous_title": "On the Saturation Effects of Kernel Ridge Regression"
     },
     {
       "id": 20,
@@ -485,7 +634,56 @@
       "sources": [
         "https://arxiv.org/abs/2309.04268"
       ],
-      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication."
+      "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication.",
+      "scholar_rows": [
+        13
+      ]
+    },
+    {
+      "id": 21,
+      "title": "On the Optimality of Misspecified Kernel Ridge Regression",
+      "authors": [
+        "Haobo Zhang",
+        "Yicheng Li",
+        "Weihao Lu",
+        "Qian Lin"
+      ],
+      "year": 2023,
+      "venue": "40th International Conference on Machine Learning (ICML), Proceedings of Machine Learning Research 202, pp. 41331–41353, 2023",
+      "url": "https://proceedings.mlr.press/v202/zhang23x.html",
+      "status": "published",
+      "type": "conference",
+      "arxiv": "2305.07241",
+      "sources": [
+        "https://proceedings.mlr.press/v202/zhang23x.html",
+        "https://arxiv.org/abs/2305.07241"
+      ],
+      "scholar_rows": [
+        4
+      ]
+    },
+    {
+      "id": 22,
+      "title": "On the Saturation Effect of Kernel Ridge Regression",
+      "authors": [
+        "Yicheng Li",
+        "Haobo Zhang",
+        "Qian Lin"
+      ],
+      "year": 2023,
+      "venue": "11th International Conference on Learning Representations (ICLR), 2023",
+      "url": "https://iclr.cc/virtual/2023/poster/11902",
+      "status": "published",
+      "type": "conference",
+      "sources": [
+        "https://iclr.cc/virtual/2023/poster/11902",
+        "https://openreview.net/forum?id=tFvr-kYWs_Y"
+      ],
+      "audit_note": "Official ICLR title uses singular Effect.",
+      "previous_title": "On the Saturation Effects of Kernel Ridge Regression",
+      "scholar_rows": [
+        6
+      ]
     },
     {
       "id": 23,
@@ -506,7 +704,68 @@
         "https://arxiv.org/abs/2302.05933"
       ],
       "audit_note": "Primary arXiv record checked; no formal journal or conference publication found in title searches as of 2026-11-12. Absence of a record is not proof of non-publication.",
-      "previous_title": "Generalization Ability of Wide Neural Networks on R"
+      "previous_title": "Generalization Ability of Wide Neural Networks on R",
+      "merge_note_zh": "Google Scholar 中“Generalization Ability of Wide Neural Networks on …”与“Generalization ability of wide neural networks on R, 2023”均指向 arXiv:2302.05933，已合并为一条。",
+      "merge_note_en": "The two Google Scholar records titled “Generalization Ability of Wide Neural Networks on …” and “Generalization ability of wide neural networks on R, 2023” refer to arXiv:2302.05933 and are listed once.",
+      "scholar_rows": [
+        8,
+        26
+      ]
+    },
+    {
+      "id": 35,
+      "title": "Generalization Ability of Wide Residual Networks",
+      "authors": [
+        "Jianfa Lai",
+        "Zixiong Yu",
+        "Songtao Tian",
+        "Qian Lin"
+      ],
+      "year": 2023,
+      "venue": "arXiv:2305.18506, 2023",
+      "url": "https://arxiv.org/abs/2305.18506",
+      "status": "preprint",
+      "type": "preprint",
+      "arxiv": "2305.18506",
+      "sources": [
+        "https://arxiv.org/abs/2305.18506"
+      ],
+      "audit_note": "Primary arXiv record and title searches checked on 2026-11-12; no formal publication identified.",
+      "scholar_rows": [
+        18
+      ]
+    },
+    {
+      "id": 36,
+      "title": "On the Optimality of Functional Sliced Inverse Regression",
+      "authors": [
+        "Rui Chen",
+        "Songtao Tian",
+        "Dongming Huang",
+        "Qian Lin",
+        "Jun S. Liu"
+      ],
+      "year": 2023,
+      "venue": "Statistica Sinica, accepted manuscript; scheduled for 37(1), January 2027. arXiv:2307.02777, 2023",
+      "status": "accepted",
+      "type": "journal",
+      "url": "https://www3.stat.sinica.edu.tw/statistica/fp/SS-2023-0396.html",
+      "doi": "10.5705/ss.202023.0396",
+      "arxiv": "2307.02777",
+      "note_zh": "期刊官网已公开接收稿，排期为 2027 年 1 月第 37 卷第 1 期（排期可能调整）；截至核查日尚未正式出版，暂列于预印本区，按 2023 年首次公开年份排序。",
+      "note_en": "The journal hosts an accepted manuscript and schedules it for volume 37(1), January 2027, subject to change. Formal publication is still pending at the check date; listed with preprints under its first public year, 2023.",
+      "audit_note": "Publisher marks the article FUTURE; Crossref published-online and published-print both give 2027. DOI creation in February 2025 is not publication. Do not count this as already published.",
+      "sources": [
+        "https://www3.stat.sinica.edu.tw/statistica/fp/SS-2023-0396.html",
+        "https://www3.stat.sinica.edu.tw/statistica/latestart.asp",
+        "https://www3.stat.sinica.edu.tw/ss_newpaper/SS-2023-0396_na.pdf",
+        "https://api.crossref.org/works/10.5705/ss.202023.0396",
+        "https://arxiv.org/abs/2307.02777"
+      ],
+      "venue_zh": "Statistica Sinica，已接收；排期为 37(1)，2027 年 1 月。arXiv:2307.02777，2023",
+      "scholar_rows": [
+        29
+      ]
     },
     {
       "id": 25,
@@ -527,7 +786,10 @@
         "https://doi.org/10.1214/19-AOS1813",
         "https://api.crossref.org/works/10.1214/19-AOS1813"
       ],
-      "previous_title": "On optimality of sliced inverse regression in high dimensions"
+      "previous_title": "On optimality of sliced inverse regression in high dimensions",
+      "scholar_rows": [
+        9
+      ]
     },
     {
       "id": 26,
@@ -546,9 +808,17 @@
       "audit_note": "Replaces working title Global Testing under the Sparse Alternatives for Single Index Models with the publisher's final chapter title. Authors, book and research problem match.",
       "sources": [
         "https://link.springer.com/chapter/10.1007/978-3-030-69009-0_4",
-        "https://api.crossref.org/works/10.1007/978-3-030-69009-0_4"
+        "https://api.crossref.org/works/10.1007/978-3-030-69009-0_4",
+        "https://arxiv.org/abs/1805.01820"
       ],
-      "previous_title": "Global Testing under the Sparse Alternatives for Single Index Models"
+      "previous_title": "Global Testing under the Sparse Alternatives for Single Index Models",
+      "arxiv": "1805.01820",
+      "merge_note_zh": "旧题名“Global testing under the sparse alternatives for single index models”（arXiv:1805.01820，2018）与本书籍章节的作者及研究内容一致，已合并至 2021 年出版记录。",
+      "merge_note_en": "The earlier manuscript “Global testing under the sparse alternatives for single index models” (arXiv:1805.01820, 2018) has the same authors and research content as this chapter; merged into the 2021 publication.",
+      "scholar_rows": [
+        42,
+        44
+      ]
     },
     {
       "id": 27,
@@ -566,9 +836,23 @@
       "doi": "10.1080/01621459.2018.1520115",
       "sources": [
         "https://doi.org/10.1080/01621459.2018.1520115",
-        "https://api.crossref.org/works/10.1080/01621459.2018.1520115"
+        "https://api.crossref.org/works/10.1080/01621459.2018.1520115",
+        "https://cran.r-project.org/web/packages/LassoSIR/index.html"
       ],
-      "previous_title": "Sparse sliced inverse regression via Lasso"
+      "previous_title": "Sparse sliced inverse regression via Lasso",
+      "related_materials": [
+        {
+          "url": "https://cran.r-project.org/web/packages/LassoSIR/index.html",
+          "label_zh": "LassoSIR 软件",
+          "label_en": "LassoSIR software"
+        }
+      ],
+      "merge_note_zh": "Google Scholar 单列的“Package ‘LassoSIR’”是本论文相关软件，作为附属资源列出，不另计为论文。",
+      "merge_note_en": "The separate Google Scholar entry “Package ‘LassoSIR’” is associated software, linked here without counting it as another paper.",
+      "scholar_rows": [
+        1,
+        45
+      ]
     },
     {
       "id": 28,
@@ -591,7 +875,10 @@
         "https://doi.org/10.1080/01621459.2018.1512863",
         "https://api.crossref.org/works/10.1080/01621459.2018.1512863"
       ],
-      "previous_title": "Randomization-based inference for peer effects"
+      "previous_title": "Randomization-based inference for peer effects",
+      "scholar_rows": [
+        5
+      ]
     },
     {
       "id": 29,
@@ -611,9 +898,23 @@
       "sources": [
         "https://doi.org/10.1214/17-AOS1561",
         "https://api.crossref.org/works/10.1214/17-AOS1561",
-        "https://arxiv.org/abs/1507.03895"
+        "https://arxiv.org/abs/1507.03895",
+        "https://dash.harvard.edu/bitstreams/7312037e-9242-6bd4-e053-0100007fdf3b/download"
       ],
-      "previous_title": "On consistency and sparsity of sliced inverse regression in high dimensions"
+      "previous_title": "On consistency and sparsity of sliced inverse regression in high dimensions",
+      "related_materials": [
+        {
+          "url": "https://dash.harvard.edu/bitstreams/7312037e-9242-6bd4-e053-0100007fdf3b/download",
+          "label_zh": "补充材料",
+          "label_en": "Supplement"
+        }
+      ],
+      "merge_note_zh": "Google Scholar 单列的“Supplement to …”是本论文补充材料，已归入本条，不另计为独立论文。",
+      "merge_note_en": "The separate Google Scholar entry “Supplement to …” is supplementary material for this paper and is linked here rather than counted as another publication.",
+      "scholar_rows": [
+        2,
+        31
+      ]
     },
     {
       "id": 30,
@@ -634,7 +935,10 @@
         "https://doi.org/10.1007/978-3-319-18284-1_12",
         "https://api.crossref.org/works/10.1007/978-3-319-18284-1_12"
       ],
-      "previous_title": "Inverse Modeling: A Strategy to Cope with Nonlinearity"
+      "previous_title": "Inverse Modeling: A Strategy to Cope with Nonlinearity",
+      "scholar_rows": [
+        43
+      ]
     },
     {
       "id": 31,
@@ -656,7 +960,10 @@
         "https://api.crossref.org/works/10.4310/AMSA.2016.v1.n2.a5",
         "https://arxiv.org/abs/1511.02270"
       ],
-      "previous_title": "Signed Support Recovery for Single Index Models in High Dimensions"
+      "previous_title": "Signed Support Recovery for Single Index Models in High Dimensions",
+      "scholar_rows": [
+        15
+      ]
     },
     {
       "id": 32,
@@ -676,6 +983,9 @@
         "https://doi.org/10.4064/aa170-2-4",
         "https://api.crossref.org/works/10.4064/aa170-2-4",
         "https://arxiv.org/abs/1403.3976"
+      ],
+      "scholar_rows": [
+        19
       ]
     },
     {
@@ -697,7 +1007,10 @@
         "https://api.crossref.org/works/10.1090/conm/565/11188",
         "https://arxiv.org/abs/1108.1906"
       ],
-      "previous_title": "Highest Weight Modules at the Critical Level and Noncommutative Springer Resolution"
+      "previous_title": "Highest Weight Modules at the Critical Level and Noncommutative Springer Resolution",
+      "scholar_rows": [
+        22
+      ]
     },
     {
       "id": 34,
@@ -719,7 +1032,422 @@
         "https://api.crossref.org/works/10.1007/s11005-008-0221-3",
         "https://arxiv.org/abs/0707.2867"
       ],
-      "previous_title": "Quadratic Deformations of Lie-Poisson Structures"
+      "previous_title": "Quadratic Deformations of Lie-Poisson Structures",
+      "scholar_rows": [
+        16
+      ]
     }
-  ]
+  ],
+  "scholar_review": {
+    "profile_url": "https://scholar.google.com/citations?user=kHPrqdgAAAAJ&hl=en",
+    "checked_on": "2026-11-12",
+    "input_method": "The user pasted all 47 displayed Google Scholar records after direct automated access returned HTTP 403. Bibliographic details were cross-checked against primary sources.",
+    "source_record_count": 47,
+    "unique_scholar_work_count": 38,
+    "duplicate_record_count": 7,
+    "duplicate_groups": [
+      {
+        "paper_id": 2,
+        "scholar_rows": [
+          38,
+          39
+        ]
+      },
+      {
+        "paper_id": 14,
+        "scholar_rows": [
+          21,
+          41
+        ]
+      },
+      {
+        "paper_id": 16,
+        "scholar_rows": [
+          28,
+          47
+        ]
+      },
+      {
+        "paper_id": 23,
+        "scholar_rows": [
+          8,
+          26
+        ]
+      },
+      {
+        "paper_id": 24,
+        "scholar_rows": [
+          30,
+          33
+        ]
+      },
+      {
+        "paper_id": 26,
+        "scholar_rows": [
+          42,
+          44
+        ]
+      },
+      {
+        "paper_id": 38,
+        "scholar_rows": [
+          37,
+          46
+        ]
+      }
+    ],
+    "ancillary_records": [
+      {
+        "row": 31,
+        "paper_id": 29,
+        "kind": "supplement"
+      },
+      {
+        "row": 45,
+        "paper_id": 27,
+        "kind": "software"
+      }
+    ],
+    "additional_records": [
+      {
+        "paper_id": 5,
+        "reason": "Previously listed anonymous kernel PCA submission, still unverified; not in the supplied Scholar list."
+      },
+      {
+        "paper_id": 40,
+        "reason": "Additional September 2026 preprint verified on arXiv and the coauthor publication page."
+      }
+    ],
+    "records": [
+      {
+        "row": 1,
+        "title": "Sparse sliced inverse regression via lasso",
+        "year": 2019,
+        "paper_id": 27,
+        "kind": "paper"
+      },
+      {
+        "row": 2,
+        "title": "On consistency and sparsity for sliced inverse regression in high dimensions",
+        "year": 2018,
+        "paper_id": 29,
+        "kind": "paper"
+      },
+      {
+        "row": 3,
+        "title": "On the eigenvalue decay rates of a class of neural-network related kernel functions defined on general domains",
+        "year": 2024,
+        "paper_id": 18,
+        "kind": "paper"
+      },
+      {
+        "row": 4,
+        "title": "On the Optimality of Misspecified Kernel Ridge Regression",
+        "year": 2023,
+        "paper_id": 21,
+        "kind": "paper"
+      },
+      {
+        "row": 5,
+        "title": "Randomization inference for peer effects",
+        "year": 2019,
+        "paper_id": 28,
+        "kind": "paper"
+      },
+      {
+        "row": 6,
+        "title": "On the Saturation Effect of Kernel Ridge Regression",
+        "year": 2023,
+        "paper_id": 22,
+        "kind": "paper"
+      },
+      {
+        "row": 7,
+        "title": "On the optimality of misspecified spectral algorithms",
+        "year": 2024,
+        "paper_id": 11,
+        "kind": "paper"
+      },
+      {
+        "row": 8,
+        "title": "Generalization Ability of Wide Neural Networks on",
+        "year": 2023,
+        "paper_id": 23,
+        "kind": "paper"
+      },
+      {
+        "row": 9,
+        "title": "On the optimality of sliced inverse regression in high dimensions",
+        "year": 2021,
+        "paper_id": 25,
+        "kind": "paper"
+      },
+      {
+        "row": 10,
+        "title": "On the asymptotic learning curves of kernel ridge regression under power-law decay",
+        "year": 2023,
+        "paper_id": 19,
+        "kind": "paper"
+      },
+      {
+        "row": 11,
+        "title": "Kernel interpolation generalizes poorly",
+        "year": 2024,
+        "paper_id": 10,
+        "kind": "paper"
+      },
+      {
+        "row": 12,
+        "title": "Generalization error curves for analytic spectral algorithms under power-law decay",
+        "year": 2024,
+        "paper_id": 17,
+        "kind": "paper"
+      },
+      {
+        "row": 13,
+        "title": "Optimal rate of kernel regression in large dimensions",
+        "year": 2023,
+        "paper_id": 20,
+        "kind": "paper"
+      },
+      {
+        "row": 14,
+        "title": "Optimal rates of kernel ridge regression under source condition in large dimensions",
+        "year": 2025,
+        "paper_id": 7,
+        "kind": "paper"
+      },
+      {
+        "row": 15,
+        "title": "Signed support recovery for single index models in high-dimensions",
+        "year": 2015,
+        "paper_id": 31,
+        "kind": "paper"
+      },
+      {
+        "row": 16,
+        "title": "Quadratic Deformations of Lie–Poisson Structures",
+        "year": 2008,
+        "paper_id": 34,
+        "kind": "paper"
+      },
+      {
+        "row": 17,
+        "title": "The phase diagram of kernel interpolation in large dimensions",
+        "year": 2025,
+        "paper_id": 12,
+        "kind": "paper"
+      },
+      {
+        "row": 18,
+        "title": "Generalization ability of wide residual networks",
+        "year": 2023,
+        "paper_id": 35,
+        "kind": "paper"
+      },
+      {
+        "row": 19,
+        "title": "Isogeny orbits in a family of abelian varieties",
+        "year": 2014,
+        "paper_id": 32,
+        "kind": "paper"
+      },
+      {
+        "row": 20,
+        "title": "On the impacts of the random initialization in the neural tangent kernel theory",
+        "year": 2024,
+        "paper_id": 9,
+        "kind": "paper"
+      },
+      {
+        "row": 21,
+        "title": "On the saturation effects of spectral algorithms in large dimensions",
+        "year": 2024,
+        "paper_id": 14,
+        "kind": "paper"
+      },
+      {
+        "row": 22,
+        "title": "Highest weight modules at the critical level and noncommutative Springer resolution",
+        "year": 2012,
+        "paper_id": 33,
+        "kind": "paper"
+      },
+      {
+        "row": 23,
+        "title": "Neural tangent kernel of neural networks with loss informed by differential operators",
+        "year": 2025,
+        "paper_id": 4,
+        "kind": "paper"
+      },
+      {
+        "row": 24,
+        "title": "Diagonal over-parameterization in Reproducing Kernel Hilbert Spaces as an adaptive feature model: Generalization and adaptivity",
+        "year": 2025,
+        "paper_id": 6,
+        "kind": "paper"
+      },
+      {
+        "row": 25,
+        "title": "Improving adaptivity via over-parameterization in sequence models",
+        "year": 2024,
+        "paper_id": 8,
+        "kind": "paper"
+      },
+      {
+        "row": 26,
+        "title": "Generalization ability of wide neural networks on R, 2023",
+        "year": null,
+        "paper_id": 23,
+        "kind": "paper"
+      },
+      {
+        "row": 27,
+        "title": "Consistency of Physics-Informed Neural Networks for Second-Order Elliptic Equations",
+        "year": 2026,
+        "paper_id": 3,
+        "kind": "paper"
+      },
+      {
+        "row": 28,
+        "title": "The optimality of kernel classifiers in sobolev space",
+        "year": 2024,
+        "paper_id": 16,
+        "kind": "paper"
+      },
+      {
+        "row": 29,
+        "title": "On the optimality of functional sliced inverse regression",
+        "year": 2023,
+        "paper_id": 36,
+        "kind": "paper"
+      },
+      {
+        "row": 30,
+        "title": "Sliced inverse regression with large structural dimensions",
+        "year": 2023,
+        "paper_id": 24,
+        "kind": "paper"
+      },
+      {
+        "row": 31,
+        "title": "Supplement to “On consistency and sparsity for sliced inverse regression in high dimensions.”",
+        "year": 2018,
+        "paper_id": 29,
+        "kind": "supplement"
+      },
+      {
+        "row": 32,
+        "title": "Learning Curves and Benign Overfitting of Spectral Algorithms in Large Dimensions",
+        "year": 2026,
+        "paper_id": 37,
+        "kind": "paper"
+      },
+      {
+        "row": 33,
+        "title": "On the structural dimension of sliced inverse regression",
+        "year": 2026,
+        "paper_id": 24,
+        "kind": "paper"
+      },
+      {
+        "row": 34,
+        "title": "Towards a statistical understanding of neural networks: Beyond the neural tangent kernel theories",
+        "year": 2024,
+        "paper_id": 13,
+        "kind": "paper"
+      },
+      {
+        "row": 35,
+        "title": "On the Pinsker bound of inner product kernel regression in large dimensions",
+        "year": 2024,
+        "paper_id": 15,
+        "kind": "paper"
+      },
+      {
+        "row": 36,
+        "title": "Optimal Confidence Band for Kernel Gradient Flow Estimator",
+        "year": 2026,
+        "paper_id": 1,
+        "kind": "paper"
+      },
+      {
+        "row": 37,
+        "title": "Large Dimensional Kernel Ridge Regression: Extending to Product Kernels",
+        "year": 2026,
+        "paper_id": 38,
+        "kind": "paper"
+      },
+      {
+        "row": 38,
+        "title": "Supporting Evidence for the Adaptive Feature Program across Diverse Models",
+        "year": 2025,
+        "paper_id": 2,
+        "kind": "paper"
+      },
+      {
+        "row": 39,
+        "title": "Several Supporting Evidences for the Adaptive Feature Program",
+        "year": 2025,
+        "paper_id": 2,
+        "kind": "paper"
+      },
+      {
+        "row": 40,
+        "title": "Alignment-Sensitive Minimax Rates for Spectral Algorithms with Learned Kernels",
+        "year": 2025,
+        "paper_id": 39,
+        "kind": "paper"
+      },
+      {
+        "row": 41,
+        "title": "On the Saturation Effects of Spectral Algorithms in Large Dimensions",
+        "year": 2025,
+        "paper_id": 14,
+        "kind": "paper"
+      },
+      {
+        "row": 42,
+        "title": "Testing Model Utility for Single Index Models Under High Dimension",
+        "year": 2021,
+        "paper_id": 26,
+        "kind": "paper"
+      },
+      {
+        "row": 43,
+        "title": "Inverse Modeling: A Strategy to Cope with Non-linearity",
+        "year": 2018,
+        "paper_id": 30,
+        "kind": "paper"
+      },
+      {
+        "row": 44,
+        "title": "Global testing under the sparse alternatives for single index models",
+        "year": 2018,
+        "paper_id": 26,
+        "kind": "paper"
+      },
+      {
+        "row": 45,
+        "title": "Package ‘LassoSIR’",
+        "year": 2017,
+        "paper_id": 27,
+        "kind": "software"
+      },
+      {
+        "row": 46,
+        "title": "Exact Rates and Saturation Effect of Kernel Ridge Regression over Unbounded Input Space in Large Dimensions",
+        "year": null,
+        "paper_id": 38,
+        "kind": "paper"
+      },
+      {
+        "row": 47,
+        "title": "SOBOLEV SPACE",
+        "year": null,
+        "paper_id": 16,
+        "kind": "paper"
+      }
+    ]
+  }
 }
