@@ -45,7 +45,7 @@
 - 项目：[教师主页](https://www.stat.tsinghua.edu.cn/info/1023/2413.htm)列出的 2 项基金项目及 3 项合作研究。原始中文项目名保留，英文为对应翻译；不将相关论文擅自标记为某一项目的资助成果。合作项目未公开的期限和具体角色不补写。
 - 项目期限差异：充分性降维面上项目在教师主页列为 2020/01–2023/12，而[2022–2023 年报](https://www.stat.tsinghua.edu.cn/PDF/2022-2023NB.pdf)的基金汇总表列为 2020–2024。由于公开资料存在差异且缺少可直接对应的项目编号，页面暂只展示已确认的题名、资助类别和主持角色，不将其中一个结束年份作为定论。北京市自然科学基金项目采用教师主页明确给出的 2019/10–2023/10。
 - 教学：[教师主页](https://www.stat.tsinghua.edu.cn/info/1023/2413.htm)的 6 门历史课程，加上[2025 年秋季课程表](https://www.stat.tsinghua.edu.cn/__local/5/04/32/2F29E052CB9F6A1DA2579C40C24_3AF97D1F_1CBCF.pdf)中的“深度学习的数学基础”，并依据[2026 年春季课程表](https://www.stat.tsinghua.edu.cn/__local/D/20/6C/0BB2B057B9326092C966D2BE6A9_B1AE85DA_1EAA9.pdf)补充“高等数理统计 II”的授课学期。两份课程表已查看整页及红色研究生课程标注；最终为 6 门研究生课程、1 门本科课程，共 8 条已确认的授课学期记录。未将历史课程表的教室、时段当作当前安排。
-- 服务：[教师主页](https://www.stat.tsinghua.edu.cn/info/1023/2413.htm)的两项学会任职，以及[2026 年 9 月院系新闻](https://www.stat.tsinghua.edu.cn/info/1205/4252.htm)明确记载的统计系学生组副组长。学会英文名依[中国现场统计研究会官网](https://caas.kejie.org.cn/c98)使用 Chinese Association for Applied Statistics。未推断服务任期。
+- 服务：两项学会任职依据[教师主页](https://www.stat.tsinghua.edu.cn/info/1023/2413.htm)；统计系学生组组长（Head, Student Affairs Group）依据用户于 2026-11-13 的明确更正，不再沿用此前院系新闻中的职务表述。学会英文名依[中国现场统计研究会官网](https://caas.kejie.org.cn/c98)使用 Chinese Association for Applied Statistics。未推断服务任期。
 - 本次全站同步统一了全部 8 个页面的照片、姓名、职称、单位、联系方式、研究方向、资料链接、导航、图标与页脚，并替换了 Projects 和 Teaching 的全部模板内容。
 
 ## 论文整理与核查
