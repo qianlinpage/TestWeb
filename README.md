@@ -56,3 +56,7 @@ README.md           本说明
 ## 本地预览与更新
 
 双击 `index.html` 即可查看，或者在此文件夹运行 `python3 -m http.server 8000` 后访问 `http://localhost:8000`（Ctrl+C 停止）。修改文件并重新提交到 GitHub 后，Pages 会重新发布。若出现 404，检查发布分支、文件夹、文件名大小写，并确认 `index.html` 位于所选发布目录根部。
+
+## 中英文版本
+
+顶部“中文 / English”切换当前页面的语言。英文为 `index.html`、`projects.html`、`teaching.html`、`publications.html`；中文为对应的 `*.zh.html` 文件。栏目导航始终保留当前语言，语言链接会切换到同一栏目。所有页面都是独立静态 HTML，无需 JavaScript 或后端；收藏对应地址即可直接打开所需语言。更新内容时请同步编辑中英文版本，BibTeX 引用保持原文。
