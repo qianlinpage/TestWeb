@@ -89,7 +89,14 @@
         6,
         8,
         9
-      ]
+      ],
+      "website": {
+        "url": "https://qianlinpage.github.io/adaptivefeature/",
+        "label": {
+          "en": "Adaptive Feature project website",
+          "zh": "自适应特征项目主页"
+        }
+      }
     },
     {
       "id": "project-dimension-reduction",

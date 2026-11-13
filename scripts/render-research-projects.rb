@@ -65,6 +65,10 @@ updates = {}
     html << "        <article class=\"research-project\" id=\"#{project['id']}\">"
     html << "          <h3>#{escape.call(project['title'][lang])}</h3>"
     html << "          <p>#{escape.call(project['summary'][lang])}</p>"
+    if project['website']
+      website = project.fetch('website')
+      html << "          <p><a href=\"#{escape.call(website.fetch('url'))}\">#{escape.call(website.fetch('label').fetch(lang))}</a></p>"
+    end
     html << "          <h4>#{labels['questions']}</h4>"
     html << '          <ul class="plain-list">'
     project['questions'][lang].each { |question| html << "            <li>#{escape.call(question)}</li>" }
